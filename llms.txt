@@ -1,0 +1,50 @@
+# AgentC
+
+> AgentC is an agentic-AI marketing agency. AI agents run continuous research, creative and optimisation loops, while human strategists own judgement, taste and accountability. The agents run on SOMIN, an AI audience-research platform and AgentC's technology partner, so every recommendation traces back to real audience conversations. The C stands for the conductor: the human who decides what the orchestra plays.
+
+- Website: https://agentc.marketing/
+- Contact: ask@agentc.marketing
+- Based in: Singapore
+- Technology partner: SOMIN (https://somin.ai/), an AI audience-research and creative-intelligence platform
+
+## What we do
+- Agentic audience research: Research agents read real audience conversations continuously and surface tensions, language and moments worth acting on. A strategist decides which ones deserve a brief.
+- Creative loops with a human edit: Creative agents draft routes, variants and hooks at volume from the research. Our strategists cut, shape and sign off, because taste is not a prompt.
+- Always-on optimisation: Optimisation agents watch performance, flag fatigue and propose reallocations against profit, not vanity metrics. Changes above an agreed threshold wait for a human yes.
+- Agent governance design: We map which decisions agents may take alone, which need review and which stay human forever. You get a written operating charter, not a black box.
+- Marketing team redesign: We help in-house teams reorganise around agents: new roles, rituals and review points. The aim is fewer handoffs and more judgement, not fewer people by default.
+- Human-connection audits: We review automated journeys for moments where a customer needs a person, not a sequence. Then we design those moments back in.
+
+## Key pages
+- [Home](https://agentc.marketing/): AgentC is an agentic-AI marketing agency: AI agents run research, creative and optimisation loops while human strategists own judgement and taste.
+- [Blog](https://agentc.marketing/blog/): ten articles
+- [Brand guidelines](https://agentc.marketing/brand/)
+
+## Articles
+- [What is agentic marketing, and who conducts the agents?](https://agentc.marketing/blog/what-is-agentic-marketing/): Agentic marketing uses AI agents to run research, creative and optimisation loops. Here is how it works and why a human conductor still decides.
+- [Human-in-the-loop marketing: where to put the checkpoints](https://agentc.marketing/blog/human-in-the-loop-marketing/): Human-in-the-loop marketing only works if checkpoints sit in the right places. A practical map of what agents decide alone and what waits for a person.
+- [How to govern AI marketing agents: a one-page charter](https://agentc.marketing/blog/governing-ai-marketing-agents/): AI marketing agents need written rules before they need more autonomy. A one-page governance charter covering scope, data, approvals and accountability.
+- [The future marketing org: fewer handoffs, more conductors](https://agentc.marketing/blog/future-marketing-org-agents/): How AI agents reshape the marketing team: which roles shrink, which grow, and why the conductor becomes the most important job in the department.
+- [Keeping human connection in automated marketing](https://agentc.marketing/blog/human-connection-automated-marketing/): Automation can scale reach while quietly eroding trust. Five design rules for keeping real human connection inside AI-run marketing.
+- [How AI agents do audience research without guessing](https://agentc.marketing/blog/ai-agents-audience-research/): AI research agents are only as good as their evidence. How AgentC runs a continuous audience research loop on SOMIN that strategists can verify.
+- [Why AI creative needs a human edit, and what to cut](https://agentc.marketing/blog/ai-creative-needs-a-human-edit/): AI agents make creative options abundant. Taste becomes the scarce skill. A practical editing routine for choosing and shaping agent-made creative.
+- [Optimisation agents and the vanity metric trap](https://agentc.marketing/blog/ai-optimisation-beyond-vanity-metrics/): Optimisation agents chase whatever you tell them to. How to point them at true profit instead of vanity ROAS, and when humans should overrule.
+- [Why every AI agent decision needs an audit trail](https://agentc.marketing/blog/audit-trail-for-ai-agents/): If you cannot explain what your marketing agents did and why, you cannot defend it. What a useful agent audit trail records, and who reads it.
+- [How to brief AI agents: a brief template for conductors](https://agentc.marketing/blog/how-to-brief-ai-agents/): A good agent brief sets purpose, boundaries and taste, not just tasks. A practical template for briefing AI marketing agents, with a worked example.
+
+## FAQ
+- **What does AgentC actually do?** AgentC is a marketing agency where AI agents run the repetitive loops of research, creative production and campaign optimisation, and human strategists make the decisions. You get continuous output and monitoring from the agents, and a named strategist who owns judgement, brand fit and accountability for every material call.
+- **What does the C stand for?** The conductor. An orchestra can play brilliantly without the conductor touching an instrument, but someone has to decide the tempo, the interpretation and when to stop. At AgentC that person is a human strategist, and the agents are the orchestra.
+- **Which technology do your agents run on?** Our agents run on SOMIN, an AI audience-research platform that is our technology partner. SOMIN's agents analyse real audience conversations and link every insight back to the posts that support it, which lets our strategists verify the evidence before acting on it.
+- **Will agents publish anything without human approval?** Only what your operating charter allows. We agree in writing which actions agents may take alone, such as pausing a fatigued ad within budget, and which always wait for a human, such as new messaging, new audiences or anything sensitive. Brand-new creative always gets a human edit.
+- **Is AgentC trying to replace marketing teams?** No. We believe agents should take the drudgery so people can do more of the work that needs judgement, empathy and taste. When we help redesign a team, the goal is better decisions and fewer handoffs, not headcount cuts dressed up as innovation.
+- **How do I start?** Email ask@agentc.marketing with a short brief: the business problem, the audience, what you have tried and what success looks like. A strategist will reply with questions and a proposed first loop, usually focused on one audience and one channel to begin with.
+
+## Sister companies
+- [Marketing Mondays](https://mondays.marketing/): One real signal, decoded every Monday
+- [Somonitor](https://somonitor.ai/): Always-on listening you can check
+- [Trafix](https://trafix.app/): Paid traffic, measured in profit
+- [GPT3 Marketing](https://gpt3.marketing/): Six years of AI content craft
+- [GPT5 Marketing](https://gpt5.marketing/): Marketing redesigned for reasoning models
+- [Mindfuse](https://mindfuse.sg/): Consumer psychology and culture, decoded for SEA
+- [SNMRush](https://snmrush.com/): Search, Neural answers, Mentions. One rush.

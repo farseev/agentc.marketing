@@ -1,0 +1,905 @@
+# AgentC
+
+> AgentC is an agentic-AI marketing agency. AI agents run continuous research, creative and optimisation loops, while human strategists own judgement, taste and accountability. The agents run on SOMIN, an AI audience-research platform and AgentC's technology partner, so every recommendation traces back to real audience conversations. The C stands for the conductor: the human who decides what the orchestra plays.
+
+- Website: https://agentc.marketing/
+- Contact: ask@agentc.marketing
+- Based in: Singapore
+- Technology partner: SOMIN (https://somin.ai/), an AI audience-research and creative-intelligence platform
+
+## What we do
+- Agentic audience research: Research agents read real audience conversations continuously and surface tensions, language and moments worth acting on. A strategist decides which ones deserve a brief.
+- Creative loops with a human edit: Creative agents draft routes, variants and hooks at volume from the research. Our strategists cut, shape and sign off, because taste is not a prompt.
+- Always-on optimisation: Optimisation agents watch performance, flag fatigue and propose reallocations against profit, not vanity metrics. Changes above an agreed threshold wait for a human yes.
+- Agent governance design: We map which decisions agents may take alone, which need review and which stay human forever. You get a written operating charter, not a black box.
+- Marketing team redesign: We help in-house teams reorganise around agents: new roles, rituals and review points. The aim is fewer handoffs and more judgement, not fewer people by default.
+- Human-connection audits: We review automated journeys for moments where a customer needs a person, not a sequence. Then we design those moments back in.
+
+## Key pages
+- [Home](https://agentc.marketing/): AgentC is an agentic-AI marketing agency: AI agents run research, creative and optimisation loops while human strategists own judgement and taste.
+- [Blog](https://agentc.marketing/blog/): ten articles
+- [Brand guidelines](https://agentc.marketing/brand/)
+
+## Articles
+- [What is agentic marketing, and who conducts the agents?](https://agentc.marketing/blog/what-is-agentic-marketing/): Agentic marketing uses AI agents to run research, creative and optimisation loops. Here is how it works and why a human conductor still decides.
+- [Human-in-the-loop marketing: where to put the checkpoints](https://agentc.marketing/blog/human-in-the-loop-marketing/): Human-in-the-loop marketing only works if checkpoints sit in the right places. A practical map of what agents decide alone and what waits for a person.
+- [How to govern AI marketing agents: a one-page charter](https://agentc.marketing/blog/governing-ai-marketing-agents/): AI marketing agents need written rules before they need more autonomy. A one-page governance charter covering scope, data, approvals and accountability.
+- [The future marketing org: fewer handoffs, more conductors](https://agentc.marketing/blog/future-marketing-org-agents/): How AI agents reshape the marketing team: which roles shrink, which grow, and why the conductor becomes the most important job in the department.
+- [Keeping human connection in automated marketing](https://agentc.marketing/blog/human-connection-automated-marketing/): Automation can scale reach while quietly eroding trust. Five design rules for keeping real human connection inside AI-run marketing.
+- [How AI agents do audience research without guessing](https://agentc.marketing/blog/ai-agents-audience-research/): AI research agents are only as good as their evidence. How AgentC runs a continuous audience research loop on SOMIN that strategists can verify.
+- [Why AI creative needs a human edit, and what to cut](https://agentc.marketing/blog/ai-creative-needs-a-human-edit/): AI agents make creative options abundant. Taste becomes the scarce skill. A practical editing routine for choosing and shaping agent-made creative.
+- [Optimisation agents and the vanity metric trap](https://agentc.marketing/blog/ai-optimisation-beyond-vanity-metrics/): Optimisation agents chase whatever you tell them to. How to point them at true profit instead of vanity ROAS, and when humans should overrule.
+- [Why every AI agent decision needs an audit trail](https://agentc.marketing/blog/audit-trail-for-ai-agents/): If you cannot explain what your marketing agents did and why, you cannot defend it. What a useful agent audit trail records, and who reads it.
+- [How to brief AI agents: a brief template for conductors](https://agentc.marketing/blog/how-to-brief-ai-agents/): A good agent brief sets purpose, boundaries and taste, not just tasks. A practical template for briefing AI marketing agents, with a worked example.
+
+## FAQ
+- **What does AgentC actually do?** AgentC is a marketing agency where AI agents run the repetitive loops of research, creative production and campaign optimisation, and human strategists make the decisions. You get continuous output and monitoring from the agents, and a named strategist who owns judgement, brand fit and accountability for every material call.
+- **What does the C stand for?** The conductor. An orchestra can play brilliantly without the conductor touching an instrument, but someone has to decide the tempo, the interpretation and when to stop. At AgentC that person is a human strategist, and the agents are the orchestra.
+- **Which technology do your agents run on?** Our agents run on SOMIN, an AI audience-research platform that is our technology partner. SOMIN's agents analyse real audience conversations and link every insight back to the posts that support it, which lets our strategists verify the evidence before acting on it.
+- **Will agents publish anything without human approval?** Only what your operating charter allows. We agree in writing which actions agents may take alone, such as pausing a fatigued ad within budget, and which always wait for a human, such as new messaging, new audiences or anything sensitive. Brand-new creative always gets a human edit.
+- **Is AgentC trying to replace marketing teams?** No. We believe agents should take the drudgery so people can do more of the work that needs judgement, empathy and taste. When we help redesign a team, the goal is better decisions and fewer handoffs, not headcount cuts dressed up as innovation.
+- **How do I start?** Email ask@agentc.marketing with a short brief: the business problem, the audience, what you have tried and what success looks like. A strategist will reply with questions and a proposed first loop, usually focused on one audience and one channel to begin with.
+
+## Sister companies
+- [Marketing Mondays](https://mondays.marketing/): One real signal, decoded every Monday
+- [Somonitor](https://somonitor.ai/): Always-on listening you can check
+- [Trafix](https://trafix.app/): Paid traffic, measured in profit
+- [GPT3 Marketing](https://gpt3.marketing/): Six years of AI content craft
+- [GPT5 Marketing](https://gpt5.marketing/): Marketing redesigned for reasoning models
+- [Mindfuse](https://mindfuse.sg/): Consumer psychology and culture, decoded for SEA
+- [SNMRush](https://snmrush.com/): Search, Neural answers, Mentions. One rush.
+
+
+# Full articles
+
+
+# What is agentic marketing, and who conducts the agents?
+URL: https://agentc.marketing/blog/what-is-agentic-marketing/ · Published 2026-10-05
+
+Agentic marketing is marketing in which AI agents plan and carry out multi-step tasks, such as audience research, creative drafting and campaign optimisation, with limited prompting. Agents act, check results and try again. The part that matters most is the part agents should not own: a human strategist who decides goals, sets boundaries and is accountable for what goes out.
+
+## What makes a marketing tool "agentic"?
+
+A chatbot answers a question. An agent pursues a goal. The practical difference is that an agent can break a task into steps, use tools along the way, look at what happened and adjust. Ask a chatbot for ten headlines and you get ten headlines. Give an agent the goal of finding a message that resonates with first-time parents in Singapore and it can read relevant conversations, cluster what people worry about, draft messages against those worries, and propose which to test first.
+
+That loop of act, observe, adjust is what turns AI from a writing assistant into something closer to a junior team. It is also what makes agentic marketing risky when nobody is watching the loop.
+
+### Definitions worth agreeing on
+
+- Agent: software that pursues a goal across several steps, using tools and feedback, without a human prompting each step.
+
+- Loop: a repeating cycle of action and review, for example research, draft, test, learn.
+
+- Conductor: the human who sets the goal, the boundaries and the final call. At AgentC, the C stands for this role.
+
+- Checkpoint: a point in a loop where an agent must stop and wait for human approval.
+
+## Which marketing loops suit agents?
+
+We run three loops at AgentC, and they map neatly onto the work most marketing teams find repetitive but important.
+
+### 1. The research loop
+
+Research agents read audience conversations continuously, not once a quarter. Ours run on SOMIN, an AI audience-research platform, using SOMIN's AI agents (https://somin.ai/ai-agents/) to decode the tones, emotions and tensions inside real social posts. The output is not a deck; it is a living list of tensions and moments, each linked to the posts that evidence it.
+
+### 2. The creative loop
+
+Creative agents take the strongest tensions and draft routes: headlines, hooks, scripts, visual directions. Volume is cheap for an agent, so the job shifts from producing options to choosing between them. That choice belongs to a person, and we explain why in our piece on taste and the human edit (/blog/ai-creative-needs-a-human-edit/).
+
+### 3. The optimisation loop
+
+Optimisation agents watch live campaigns, spot creative fatigue, flag wasted spend and propose budget moves. Small, reversible changes inside an agreed budget can happen automatically. Anything that changes the message or the audience waits for a human.
+
+## Why does agentic marketing need a conductor?
+
+Because agents are optimisers, and optimisers are literal. Tell an agent to maximise click-through and it will find the click-bait. Tell it to cut cost per acquisition and it may quietly abandon the audiences that take longer to convert but stay loyal. None of that is malicious. It is just what happens when efficiency is the only instruction.
+
+The insight we build our agency around comes from listening to marketers talk about AI: ethical technology requires the courage to prioritise humanity over efficiency. In practice, that courage has a job title. Someone needs to own the questions agents cannot answer:
+
+- Is this true to who the brand is, or merely effective this week?
+
+- Would we be comfortable if the customer saw how this decision was made?
+
+- Is this a moment where a person should speak to a person?
+
+- Who is accountable if this goes wrong?
+
+An orchestra can play every note correctly and still miss the music. The conductor's job is the music.
+
+## How is an agentic agency different from a traditional one?
+
+A traditional agency spends most of its hours on production and reporting. An agentic agency spends most of its human hours on judgement. The agents absorb the scanning, drafting and monitoring; the strategists spend their time on interpretation, brand decisions and client conversations.
+
+That shift changes what you should ask an agency. Not "how many people are on my account?" but "who decides, at which points, and how do I see the evidence?" We cover the governance side of that question in how to govern AI marketing agents (/blog/governing-ai-marketing-agents/).
+
+## What does a good first agentic project look like?
+
+Start narrow. One audience, one channel, one clear business question. A worked example:
+
+- Brief: a premium skincare brand wants to understand why repeat purchase is falling among customers in their thirties.
+
+- Research loop: agents read conversations about skincare routines, price sensitivity and ingredient scepticism, then cluster recurring tensions.
+
+- Human checkpoint: the strategist reviews the tensions against the evidence and picks two worth acting on, rejecting one that is real but off-brand.
+
+- Creative loop: agents draft messages for each tension. The strategist edits and approves a shortlist.
+
+- Optimisation loop: agents run and monitor tests, pausing weak variants within budget and reporting what they changed and why.
+
+- Review: the strategist explains results to the client in plain language, including what the agents got wrong.
+
+Agencies working on SOMIN have documented similar flows; the Havas Media case study (https://somin.ai/agencies-havas-media-case-study/) is a useful read on how an established agency folds AI audience research into its process.
+
+## Where can I learn more about agentic marketing?
+
+Beyond this blog, the community at Marketing Mondays (https://mondays.marketing/) regularly decodes how AI is reshaping marketing teams, and its in-person sessions in Singapore are a good place to compare notes with people running agents in production. If you are thinking about the reasoning models underneath agents, our sister studio GPT5 Marketing (https://gpt5.marketing/) focuses on that layer.
+
+## What are the warning signs of agentic marketing done badly?
+
+You can usually tell within a month. Output volume rises sharply while the number of decisions anyone can explain falls. Reports describe what the agents did but not why. Brand teams start finding copy they never approved. Nobody can name the person responsible for a given loop. Each of these is a symptom of the same cause: agents were deployed as a replacement for judgement rather than a support for it.
+
+The remedy is not to switch the agents off. It is to put a conductor back on the podium, write down what each agent is for, and decide where it must stop and ask.
+
+The short version: agents give you tempo. A conductor gives you music. You need both, and you need to know which is which. If you want to try a first loop, brief the agents at ask@agentc.marketing.
+
+
+# Human-in-the-loop marketing: where to put the checkpoints
+URL: https://agentc.marketing/blog/human-in-the-loop-marketing/ · Published 2026-09-21
+
+Human-in-the-loop marketing means AI agents do the work but must pause for human approval at defined checkpoints. The skill is placing those checkpoints well: too few and agents drift off-brand or off-ethics; too many and humans become a rubber stamp. The rule we use is simple: the more irreversible or more human the decision, the closer a person sits to it.
+
+## Why do most human-in-the-loop setups fail?
+
+They fail in one of two ways. In the first, the human is technically in the loop but practically absent. Approvals arrive in a queue of two hundred items, the reviewer clicks through, and the loop is human in name only. In the second, every agent action needs sign-off, the team drowns in requests and quietly switches the checkpoints off.
+
+Both failures come from treating oversight as a volume problem. It is a placement problem. The question is not "how much do humans review?" but "which decisions deserve a human, and what does that human need to see to decide well?"
+
+## How should I decide which decisions need a human?
+
+We sort every agent action on two axes: how reversible it is, and how much it touches human meaning such as tone, identity, vulnerability or trust.
+
+### The AgentC checkpoint map
+
+- Reversible and mechanical (pausing a fatigued ad, shifting small budget between proven ad sets): agents act alone, log it, report daily.
+
+- Reversible but meaningful (testing a new headline built from approved messaging): agents propose, a strategist approves in batches.
+
+- Irreversible but mechanical (committing a media buy, sending to a full CRM list): human approval every time, with a summary of risks.
+
+- Irreversible and meaningful (new brand messaging, sensitive audiences, crisis replies): human-led, agents only assist.
+
+This map does more work than any policy document, because it is concrete enough to configure. It also forces an honest conversation with clients about what they are comfortable delegating.
+
+## What should a human see at a checkpoint?
+
+A checkpoint is only as good as the information presented at it. An agent that says "approve variant B" is asking for blind trust. An agent that says "approve variant B because it addresses the price-anxiety tension found in these forty posts, and here is the variant I rejected and why" is asking for judgement.
+
+That is one reason our agents run on SOMIN, an AI audience-research platform that connects every conclusion to the posts behind it. When a strategist questions a recommendation, they can open the evidence rather than argue with a summary. SOMIN's strategy tools (https://somin.ai/somin-strategy/) keep the reasoning chain visible from tension to proposition to creative.
+
+A good checkpoint card contains:
+
+- The decision being requested, in one sentence.
+
+- The evidence, linked rather than summarised.
+
+- The alternatives the agent considered.
+
+- The risk if it is wrong, and how to reverse it.
+
+- A deadline, so silence is never treated as consent.
+
+## Is "human on the loop" good enough?
+
+"Human on the loop" means a person monitors and can intervene, but agents do not wait. It suits the reversible, mechanical quadrant. For anything meaningful, we prefer "in the loop", because monitoring after the fact cannot un-send a message to a grieving customer or un-publish a joke that misreads a culture.
+
+Cultural nuance is a good example of where agents struggle. What reads as friendly candour in one market reads as rude in another. Our sister consultancy Mindfuse (https://mindfuse.sg/) works on exactly these cultural codes in Southeast Asia, and their thinking shapes where we put human review on regional campaigns.
+
+## How do you stop reviewers becoming a rubber stamp?
+
+Three habits help.
+
+- Batch by meaning, not by time. Review all variants for one tension together, so the reviewer judges coherence rather than isolated lines.
+
+- Cap the queue. If an agent produces more than a reviewer can genuinely consider, the agent is producing too much. Tighten its brief.
+
+- Track overrides. If a reviewer never rejects anything, either the agent is perfect or the review is not happening. It is rarely the first.
+
+A checkpoint nobody can say no at is not a checkpoint. It is a delay.
+
+## What does this look like in a real week?
+
+On a typical account, agents run continuously. Each morning the strategist gets a short digest: what agents did alone overnight, what is waiting for approval, and anything flagged as unusual. Most mornings, approvals take minutes. The strategist's real time goes to the questions agents surface but cannot answer, like whether to respond to a shift in audience mood or hold the line.
+
+For a wider view of how agencies are structuring this kind of operation, SOMIN for agencies (https://somin.ai/somin-for-agencies/) outlines how AI research slots into agency workflows, and the SAMY case study (https://somin.ai/agencies-samy-case-study/) is worth reading for a social-first agency's perspective.
+
+## Where does this fit in the bigger picture?
+
+Checkpoints are one part of governance. The other parts are the written charter of what agents may do, the audit trail of what they did, and the accountability of who signed off. We cover the charter in how to govern AI marketing agents (/blog/governing-ai-marketing-agents/) and the trail in why every agent decision needs an audit trail (/blog/audit-trail-for-ai-agents/).
+
+## How do checkpoints change as trust grows?
+
+Checkpoints should not be fixed forever. In the first weeks of an account we keep them tight, because we are still learning how the agents behave on this brand, with this audience. As the logs build up, patterns appear. If a strategist has approved every budget shift an agent proposed for eight weeks, with no overrides and no regret, that action can move from "approve" to "log and report". If a creative agent keeps needing the same correction, its checkpoint tightens and its brief changes.
+
+We review the checkpoint map with each client every quarter. It is a short meeting, and one of the most useful we hold, because it turns vague comfort or discomfort with AI into specific, configurable decisions.
+
+Human-in-the-loop is not a brake on agentic marketing. It is what makes it safe to go faster. If you want help mapping your own checkpoints, brief the agents at ask@agentc.marketing.
+
+
+# How to govern AI marketing agents: a one-page charter
+URL: https://agentc.marketing/blog/governing-ai-marketing-agents/ · Published 2026-09-07
+
+Governing AI marketing agents means writing down, before deployment, what each agent may do alone, what data it may use, where it must stop for a human, and who is accountable for its actions. A one-page charter covering scope, data, approvals, escalation and accountability does more for safety than a long policy nobody reads, because it can be configured and checked.
+
+## Why do AI marketing agents need governance at all?
+
+Because agents act. A tool that only suggests can be ignored; a tool that spends budget, publishes copy or messages customers creates consequences in the world. Most marketing teams already govern people this way: a junior executive has a sign-off limit, a brand book and a manager. Agents deserve the same structure, and arguably more, since they act faster and at greater volume than any junior hire.
+
+There is also a trust argument. Our listening on AI and automation keeps returning to the same idea: ethical technology requires the courage to prioritise humanity over efficiency. Customers are increasingly wary of brands that seem to know them too well or speak to them like a machine. Governance is how you show, internally and externally, that a person still answers for what your brand says.
+
+## What goes into an agent charter?
+
+We write a one-page charter for every client before any agent touches live work. It has six sections.
+
+### The AgentC one-page charter
+
+- Purpose: the business goal each agent serves, in one sentence. An agent without a stated purpose will optimise for whatever is easiest to measure.
+
+- Scope: the actions it may take, the channels it may touch and the budget ceiling it may move without approval.
+
+- Data: which sources it may read, which it may never read, and how personal data is handled.
+
+- Checkpoints: the decisions that always wait for a human. See our checkpoint map (/blog/human-in-the-loop-marketing/).
+
+- Escalation: what counts as unusual, who is alerted, and how fast they must respond.
+
+- Accountability: the named human who owns each agent's output. Never "the team". Never "the AI".
+
+## Which data should agents be allowed to use?
+
+This is where good intentions often go wrong. Agents improve with more data, which creates pressure to feed them everything. We push in the other direction: give agents the data that helps them understand audiences, not the data that lets them surveil individuals.
+
+Our research agents run on SOMIN, an AI audience-research platform that analyses public conversations at the level of themes, tones and tensions rather than tracking individuals. That is a deliberate choice. Listening to what audiences say collectively is more respectful, and often more useful, than predicting what one person will click. SOMIN's vision (https://somin.ai/vision/) page sets out the thinking behind that approach.
+
+For the paid side, agents need performance data, and they need it clean. Poor data quality and fragmented analytics are among the most common complaints we hear from teams adopting AI. Governance includes deciding which numbers are the source of truth before an agent starts optimising against them.
+
+## How do you hold an agent accountable?
+
+You do not. You hold a person accountable for the agent. This sounds like semantics but it changes behaviour. When a named strategist knows the optimisation agent's choices will be explained to the client in their name, they read the logs. When accountability is diffuse, nobody does.
+
+Practical mechanisms:
+
+- Every agent has an owner listed in the charter.
+
+- Every material action is logged with its reasoning and evidence. We explain why in our audit trail piece (/blog/audit-trail-for-ai-agents/).
+
+- A weekly review samples agent decisions at random, not just the flagged ones.
+
+- Clients can ask "why did the agent do that?" and get an answer within a day.
+
+## What are the common governance mistakes?
+
+### Governing the model instead of the workflow
+
+Teams spend weeks comparing language models and minutes designing approvals. The model matters less than where it sits in your process and who checks it.
+
+### Writing rules nobody can configure
+
+"Agents must be on-brand" is a value, not a rule. "Agents may not introduce claims absent from the approved message house" is a rule a system can enforce.
+
+### Never revisiting autonomy
+
+Charters should loosen and tighten with evidence. If an agent's budget moves have been reviewed for two months without a single override, perhaps its ceiling can rise. If a creative agent keeps drifting, its scope should shrink.
+
+Autonomy is earned in the logs, not granted in the kickoff meeting.
+
+## Does governance slow agentic marketing down?
+
+In the first fortnight, slightly. After that, it speeds things up, because the team stops debating each action and starts trusting the system it designed. Clear boundaries also make it easier for brand and legal teams to say yes.
+
+Agencies working with SOMIN have approached this in different ways; the KPI Media case study (https://somin.ai/agencies-kpi-media-case-study/) is a good reference for how a media agency integrates AI research into client delivery. And if you want a listening layer that flags when an agent's output is causing a stir, our sister app Somonitor (https://somonitor.ai/) provides early warning on brand conversation.
+
+## Where should I start?
+
+## Who should sign the charter?
+
+At minimum, three people: the marketing owner who wants the agent's output, the strategist who will be accountable for it, and someone from brand or legal who will be asked about it if it goes wrong. Getting all three in one conversation surfaces disagreements early, when they are cheap. A brand lead who is nervous about automated replies to complaints should say so before the agent is live, not after a screenshot circulates.
+
+Signing also changes how people treat the document. A charter with names on it gets reread. One without names gets filed. Keep the signatures, revisit them when people change roles, and make sure every new team member knows where the charter lives.
+
+Pick your highest-volume agent, write its charter on one page, and review it with whoever would be blamed if it went wrong. That conversation will teach you more about your governance gaps than any framework. If you would like a second pair of eyes, brief the agents at ask@agentc.marketing and we will draft the first charter with you.
+
+
+# The future marketing org: fewer handoffs, more conductors
+URL: https://agentc.marketing/blog/future-marketing-org-agents/ · Published 2026-08-24
+
+In the future marketing organisation, AI agents absorb most production, monitoring and reporting, and human roles shift towards judgement: setting direction, editing creative, governing agents and owning relationships. Teams get flatter and have fewer handoffs. The most important new role is the conductor, a strategist who orchestrates agents and remains accountable for what they produce.
+
+## What changes when agents join the team?
+
+Look at any marketing department's week and you will find a chain of handoffs. Research briefs strategy, strategy briefs creative, creative briefs media, media briefs reporting, reporting briefs research again. Each handoff loses context and adds days.
+
+Agents compress that chain. A research agent can pass findings straight to a creative agent, which can pass variants straight to an optimisation agent, all inside one loop. The humans no longer sit between every link. They sit above the loop, deciding what it is for and whether its output is good enough.
+
+## Which marketing roles shrink and which grow?
+
+We try to be honest about this, because vague reassurance helps nobody. Understanding the impact of AI on marketing jobs is one of the moments marketers search for most anxiously.
+
+### Work that shrinks
+
+- Manual social listening and report compilation.
+
+- First drafts of routine copy and variant production.
+
+- Hourly bid and budget adjustments.
+
+- Status meetings that exist only to move information between teams.
+
+### Work that grows
+
+- Conducting: setting goals for agent loops and owning their output.
+
+- Editing: choosing and shaping from abundant options, which is a taste skill.
+
+- Governing: writing charters, reviewing logs, deciding where autonomy is earned.
+
+- Connecting: the human conversations with customers, partners and colleagues that agents should not fake.
+
+Notice that the growing work is mostly senior work. The real organisational challenge is not job loss in the abstract; it is how juniors learn judgement when agents take the tasks they used to learn on. We think the answer is apprenticeship by review: juniors shadow conductors at checkpoints and explain why they would approve or reject.
+
+## What does a conductor actually do all day?
+
+### The conductor role, defined
+
+A conductor is a marketing strategist who sets goals and boundaries for a set of AI agent loops, reviews their output at checkpoints, makes the brand and ethical calls, and is personally accountable to the business for results.
+
+A typical day: twenty minutes on the overnight agent digest, an hour on creative edits, time with the client or business owner on what the audience research means, and a weekly review of agent logs. Less time in spreadsheets. More time thinking and talking.
+
+## How small can a marketing team get?
+
+Smaller than today, but not as small as the hype suggests. Agents scale execution; they do not scale accountability or relationships. A brand still needs people who know the customer, understand the business and can stand behind a decision in a boardroom.
+
+This is exactly the question the community at Marketing Mondays (https://mondays.marketing/) is putting to a room of marketing leaders on 12 October 2026 in Singapore: "The 2027 marketing team: smaller, faster, or obsolete?" Our view going in: smaller and faster, with conductors at the centre. Obsolete only for teams that confuse output with judgement.
+
+## How should a CMO start redesigning the team?
+
+- Map the handoffs. List every point where work passes between people or teams. These are your first candidates for agent loops.
+
+- Name the conductors. Decide who will own each loop. If nobody can, the loop is not ready.
+
+- Write charters. Our one-page charter (/blog/governing-ai-marketing-agents/) is a usable starting point.
+
+- Protect human moments. Decide which customer interactions stay human by design. We go deeper in keeping human connection in automated marketing (/blog/human-connection-automated-marketing/).
+
+- Measure judgement, not volume. Track decisions made and their quality, not assets produced.
+
+## Where does the evidence come from?
+
+Conductors are only as good as the signal in front of them. Our agents run on SOMIN, an AI audience-research platform, so the research loop is grounded in what real audiences actually say. For in-house teams, SOMIN for brands (https://somin.ai/somin-for-brands/) explains how that research layer works without an agency in between, and the Fujifilm case study (https://somin.ai/brands-fujifilm-case-study/) shows a global brand applying AI audience insight to its marketing.
+
+If your redesign raises questions about which reasoning models to put underneath your agents, our sister studio GPT5 Marketing (https://gpt5.marketing/) works with CMOs on exactly that.
+
+The future marketing team is not the one with the most agents. It is the one where every agent has a conductor.
+
+## What new rituals does an agentic team need?
+
+Org charts matter less than habits. Three rituals tend to separate teams that thrive with agents from teams that merely tolerate them.
+
+- The morning digest: a short read of what agents did overnight and what is waiting for a decision, owned by each conductor.
+- The weekly edit: a session where the team reviews agent output together and argues about taste. This is where juniors learn fastest.
+- The monthly autonomy review: a look at the logs to decide which agents have earned more freedom and which need tighter limits.None of these require new software. They require leaders who treat judgement as the team's core product. Teams that skip these rituals tend to drift into one of two failures: humans rubber-stamping agents, or humans redoing agent work by hand and wondering why nothing got faster. Both waste the investment. The rituals keep people and agents in their proper parts.
+
+If you are sketching your 2027 org chart and want to test it against a working agentic setup, brief the agents at ask@agentc.marketing.
+
+
+# Keeping human connection in automated marketing
+URL: https://agentc.marketing/blog/human-connection-automated-marketing/ · Published 2026-08-17
+
+To keep human connection in automated marketing, decide in advance which moments must involve a real person, make it obvious when customers are dealing with automation, ground automated messages in what audiences actually say, and give a named human the authority to override efficiency when it costs trust. Automation should create time for connection, not replace it.
+
+## Why does automation erode connection?
+
+Not because automated messages are badly written. Many are excellent. The erosion comes from small signals that add up: the reply that arrives too fast to have been considered, the personalisation that knows a little too much, the journey that has no exit to a person. Customers notice. Our listening on AI and marketing keeps surfacing a quiet distrust of brands that know people too well, and a preference for brands that seem to be listening rather than tracking.
+
+There is a principle we keep on the wall at AgentC: ethical technology requires the courage to prioritise humanity over efficiency. It sounds lofty. In practice it means accepting that some moments will cost more because a person handles them, and deciding that is worth it.
+
+## Which marketing moments should stay human?
+
+We use a short test. A moment should stay human, or at least offer an obvious route to a human, if any of these are true:
+
+### The stay-human test
+
+- The customer is upset, grieving, frightened or embarrassed.
+
+- The customer is making a decision they cannot easily reverse.
+
+- The customer has already been through automation once and it did not help.
+
+- The message touches identity, health, money worries or family.
+
+- The brand is apologising.
+
+Everything else can be a candidate for agents, provided the next four rules hold.
+
+## Five design rules for humane automation
+
+### 1. Listen before you speak
+
+Automated messages feel hollow when they are built from assumptions. Ours start from audience research: SOMIN, an AI audience-research platform and our technology partner, decodes the tones, emotions and tensions in real conversations so agents write to what people actually feel. Its social media manager (https://somin.ai/somin-social-media-manager/) applies the same grounding to day-to-day posting.
+
+### 2. Be honest about the machine
+
+Do not dress agents up as people. If a customer is chatting with an automated assistant, say so, and say how to reach a person. Honesty here costs little and buys a lot.
+
+### 3. Personalise to the moment, not the profile
+
+Personalisation that responds to what someone just said feels attentive. Personalisation that reveals what you know about them from elsewhere feels like surveillance. Prefer the first.
+
+### 4. Make the exit obvious
+
+Every automated journey should have a visible route to a human. If your team cannot staff that route, the journey is too big for your team.
+
+### 5. Give someone the override
+
+Name a person who can stop an automated campaign when it is technically performing but humanly wrong, and back them when they do. That is what we mean by a conductor, and we describe the role in what agentic marketing is (/blog/what-is-agentic-marketing/).
+
+The test of humane automation is not whether customers notice the machine. It is whether they ever feel abandoned by it.
+
+## Does human connection hurt performance?
+
+Sometimes in the short term, on narrow metrics. A slower, human reply costs more than an instant automated one. A campaign that steers away from a sensitive but high-converting angle may underperform for a week. But the costs of eroded trust are slow and hard to see on a dashboard: lower repeat purchase, more complaints, a brand that sounds like everyone else.
+
+That last point matters. When every brand uses similar AI tools, sounding human becomes a differentiator. Our sister consultancy GPT3 Marketing (https://gpt3.marketing/) has written widely about escaping generic AI sameness through brand voice systems and human editing.
+
+## What does this look like on a real account?
+
+A worked example. A family-focused retailer wants to automate post-purchase messages. Agents draft a sequence: thank you, care tips, review request, replenishment reminder. The conductor applies the stay-human test and spots a gap: some purchases are for newborns in hospital. The sequence is changed so any order with certain products routes to a softer, slower path with a human-written note and a direct line to customer care.
+
+Nothing about that change shows up as a performance win in week one. It shows up later, in how those customers talk about the brand. If you want to see how a brand in that category has used AI audience insight, the Mothercare Singapore case study (https://somin.ai/brands-mothercare-sg-case-study/) is worth a read.
+
+## Where do humans find each other in all this?
+
+Marketers themselves need connection too. One recurring moment in our research is people looking for peers to compare notes with as automation changes their work. The Marketing Mondays (https://mondays.marketing/) community in Singapore exists partly for that, and its sessions are a good reminder that marketing is still a people business.
+
+## How do you measure whether connection is holding?
+
+Not with a single number, but you can watch for signals. Track how often customers ask to speak to a person and how quickly they get one. Read a sample of replies to automated messages every week, by hand. Watch complaint themes for words like "robotic", "ignored" or "creepy". Listen to how people talk about the brand in public; a listening tool will show you whether warmth or frustration is rising.
+
+None of this is complicated. It just has to be someone's job, and that someone has to have the authority to change the journey when the signals turn.
+
+If you are automating a journey and want a second opinion on where people should stay in it, brief the agents at ask@agentc.marketing. A human will reply.
+
+
+# How AI agents do audience research without guessing
+URL: https://agentc.marketing/blog/ai-agents-audience-research/ · Published 2026-08-10
+
+AI agents do reliable audience research when they read real audience conversations, cluster them into tensions and moments, and link every conclusion back to the posts that support it. Without that link, an agent is guessing fluently. AgentC's research agents run on SOMIN, an AI audience-research platform, so strategists can check the evidence before any finding reaches a brief.
+
+## Why do language models alone make poor researchers?
+
+Ask a general language model what Gen Z thinks about budgeting apps and you will get a confident, articulate answer. It may even be partly right. But it is an answer assembled from training data of unknown age and origin, with no way to show you which real people said what. For a marketer, that is a problem. You cannot defend a strategy built on "the model said so".
+
+Poor audience data quality is one of the most common complaints we hear from teams integrating AI. The models are not the bottleneck. The evidence is.
+
+## What does a research agent actually do?
+
+Our research loop has four stages, run continuously rather than once per campaign.
+
+- Gather: agents collect relevant public conversations for the brand's category, competitors and audiences.
+
+- Decode: using SOMIN's AI agents (https://somin.ai/ai-agents/), conversations are tagged for tone, emotion, topic and tension.
+
+- Cluster: recurring tensions and moments are grouped, with the posts that evidence each one attached.
+
+- Propose: agents suggest which tensions look most actionable for the brand, with reasons.
+
+Then a person takes over. The conductor reviews the clusters, reads a sample of the underlying posts, and decides which tensions earn a brief.
+
+### Research terms we use
+
+- Tension: a conflict or pain point audiences voice repeatedly, for example wanting convenience but distrusting delivery fees.
+
+- Moment: a specific situation where that tension becomes acute, such as comparing prices at checkout.
+
+- Proposition: what the brand could credibly say or do in response.
+
+- Evidence link: the connection between a finding and the real posts behind it.
+
+## Why does traceability matter so much?
+
+Three reasons.
+
+It catches hallucination. If a cluster called "anxiety about hidden fees" turns out, on inspection, to be built from twelve posts about a single viral complaint, the strategist can see that and discount it.
+
+It builds confidence. Marketers often feel pressure to present insight with certainty they do not have. Evidence they can open and read changes that conversation.
+
+It respects audiences. Listening to what people say in public, at the level of shared themes, is a more dignified basis for marketing than tracking individuals. That fits the principle we organise around: prioritising humanity over efficiency.
+
+An insight you cannot trace is an opinion with good formatting.
+
+## How do strategists check an agent's research?
+
+We use a short review routine at every research checkpoint.
+
+### Research checkpoint routine
+
+- Read at least ten posts behind each proposed tension.
+
+- Ask whether the tension appears across different voices or just a loud few.
+
+- Check whether the language people use matches the agent's summary.
+
+- Reject tensions that are real but that the brand cannot credibly address.
+
+- Note what surprised you; surprises often become the best briefs.
+
+## How does research feed the rest of the loop?
+
+Approved tensions flow directly to the creative loop, keeping the original language people used. That matters, because the most resonant copy often borrows audience phrasing. We describe what happens next in why AI creative needs a human edit (/blog/ai-creative-needs-a-human-edit/).
+
+Research also feeds search and AI visibility. The questions audiences voice in conversation are the questions they ask search engines and AI assistants. Our sister agency SNMRush (https://snmrush.com/) uses the same SOMIN signal to build answer-ready content for search and AI answers.
+
+## What does good look like?
+
+For an example of AI audience research applied to a consumer brand, the Keeta Hong Kong case study (https://somin.ai/brands-keeta-hk-case-study/) is a useful reference, and SOMIN's AI marketing strategy cases (https://somin.ai/cases-ai-marketing-strategy/) collect more. Good research does not produce a thicker deck. It produces a shorter list of tensions that a strategist believes in and can defend.
+
+## How often should the research loop run?
+
+Continuously, but reviewed on a rhythm. Audience conversations shift with seasons, news, competitor moves and culture, so a research snapshot taken once a quarter is often stale before the campaign launches. Our agents gather and decode every day. The conductor reviews new or changing tensions weekly, and the whole picture monthly with the client.
+
+The weekly review is where most value appears. A tension that was minor last month and is growing this month is often the best early signal a brand will get, well before it shows up in sales data or category reports. Equally, a tension that is fading tells you when to retire a message before it starts to feel out of touch.
+
+## What should research agents never do?
+
+- Profile or target named individuals from their public posts.
+- Present a finding without the evidence behind it.
+- Treat a single viral post as a trend.
+- Fill gaps in the data with a model's general knowledge, presented as research.These rules are written into every research agent's charter at AgentC.
+
+One more practical note. Research findings age, so every tension in our library carries the date it was last confirmed against fresh conversation. When a strategist builds a brief, they can see at a glance whether the evidence is from this week or from last season, and refresh it before committing budget. It is a small habit that prevents a surprising number of tone-deaf campaigns.
+
+If you want a research loop running on your category, brief the agents at ask@agentc.marketing.
+
+
+# Why AI creative needs a human edit, and what to cut
+URL: https://agentc.marketing/blog/ai-creative-needs-a-human-edit/ · Published 2026-08-03
+
+AI creative needs a human edit because agents optimise for patterns that worked before, which pulls every brand towards the same safe middle. A human editor supplies taste: choosing the option that is true to the brand, cutting what is merely competent, and sharpening what is distinctive. When options are abundant, the scarce skill is not making. It is choosing.
+
+## What goes wrong when agents produce creative unedited?
+
+The output is rarely bad. It is usually fine, and that is the problem. Creative agents learn from what has worked, so they converge on familiar structures: the question hook, the three benefits, the urgent call to action. Run that across an entire category and you get a sea of sameness, which is exactly the complaint marketers voice about AI-generated content. Everyone sounds the same, and much of it still needs heavy human revision.
+
+There is a second problem. Agents do not know what a brand should refuse to say. They know what it has said. Taste includes the no.
+
+## What does a creative agent do well?
+
+Credit where due. Creative agents at AgentC are excellent at:
+
+- Producing many angles on a single audience tension, quickly.
+
+- Adapting an approved idea across formats and placements.
+
+- Keeping the audience's own language from research, rather than drifting into marketing-speak.
+
+- Generating deliberately unusual options when asked, which a human can then judge.
+
+Our creative loop starts from tensions found in research on SOMIN, an AI audience-research platform, so drafts are grounded in what people actually say. We explain that stage in how AI agents do audience research without guessing (/blog/ai-agents-audience-research/). SOMIN can also turn insights into expressions and propositions, which our strategy layer (https://somin.ai/somin-strategy/) uses as raw material.
+
+## How should a strategist edit agent creative?
+
+We use a five-pass routine. It takes less time than it sounds, because each pass removes options.
+
+### The five-pass human edit
+
+- Truth pass: cut anything the brand cannot stand behind, including implied claims.
+
+- Tension pass: cut anything that does not clearly address the audience tension in the brief.
+
+- Sameness pass: cut anything a competitor could run unchanged by swapping the logo.
+
+- Humanity pass: cut anything that feels manipulative, intrusive or cold, even if it would perform.
+
+- Sharpen pass: rewrite the survivors by hand. One word changed by a person often does more than ten more variants.
+
+The sameness pass is the most important and the most skipped. If you do one thing differently after reading this, do that one.
+
+Agents give you a hundred competent options. Your job is to find the one that could only be yours.
+
+## Is taste just personal preference?
+
+No, though it is often dismissed that way. Taste in marketing is judgement about fit: between message and brand, between tone and moment, between what will work and what will last. It is built from experience, exposure and knowing the audience. It can be argued for with reasons, which is how we distinguish it from whim.
+
+That also means taste can be taught. Junior strategists at AgentC sit in on edit sessions and defend their cuts. Over time they learn to see sameness faster than any model can describe it.
+
+## Should creative be scored before it is edited?
+
+Scoring helps, but it should inform the edit, not replace it. Predictive scoring of creative clickability before media spend is useful for ranking survivors of the edit and for avoiding expensive dead ends. Our sister app Trafix (https://trafix.app/) uses SOMIN's pre-spend clickability prediction for exactly this. But a score will not tell you whether a line is true to the brand or merely effective. That stays human.
+
+## What does a worked example look like?
+
+A fitness brand's research loop surfaces a tension: people want to train consistently but feel judged in gyms. The creative agent drafts forty lines. The truth pass removes six that imply results. The tension pass removes twelve that drift into generic motivation. The sameness pass removes fifteen that any gym could run. The humanity pass removes two that lean on body insecurity, which would likely perform and which the brand should never run. Five survive. The strategist rewrites two by hand, and those two go to test.
+
+For a look at how a performance-focused brand has used AI insight, the Exostride case study (https://somin.ai/brands-exostride-case-study/) is a useful read.
+
+## Where does this leave creative teams?
+
+In a better position than they fear, if they lean into editing. The craft shifts from producing to curating and sharpening, which is closer to what senior creatives already do. Teams that resist editing and simply ship agent output will struggle to tell their work apart from everyone else's.
+
+## How many options should agents produce?
+
+Fewer than you think. It is tempting to ask for two hundred variants because it costs almost nothing, but a reviewer cannot genuinely judge two hundred lines, and the edit becomes skimming. We usually ask for twenty to forty options per tension, with a deliberate spread: some close to the brief, some stretching it, a few intentionally strange. That spread gives the editor real choices rather than two hundred shades of the same idea.
+
+If the editor finds nothing worth keeping, the answer is rarely more volume. It is a better brief, usually with clearer examples of what good looks like.
+
+One more habit worth adopting: keep a short file of rejected lines and the reason for each rejection. Over a few months it becomes the most honest description of your brand's taste you will ever have, far more useful than adjectives in a brand book. It also makes a superb set of negative examples for the next agent brief.
+
+If you want your creative loop set up with a proper human edit, brief the agents at ask@agentc.marketing.
+
+
+# Optimisation agents and the vanity metric trap
+URL: https://agentc.marketing/blog/ai-optimisation-beyond-vanity-metrics/ · Published 2026-07-27
+
+Optimisation agents adjust bids, budgets and creative continuously to hit a target, so the target decides everything. Point an agent at vanity metrics such as headline ROAS or click-through and it will deliver them, often at the expense of real profit. Point it at true profit, set reversible limits, and keep a human over the decisions that change strategy.
+
+## Why are optimisation agents dangerous with the wrong target?
+
+Because they are relentless. A human media buyer chasing a 400% ROAS might notice that the campaign is driving heavily discounted orders with high return rates. An agent will not, unless it has been told those things matter. It will happily scale the campaign that looks best on the number it was given.
+
+This is a well-worn tension in our listening: brands optimise for ROAS and CPA while ignoring returns, fees and true profit, and agencies get rewarded for metrics that flatter rather than inform. Agents make the problem faster, not different.
+
+## What should an optimisation agent optimise for?
+
+Whatever is closest to real business value that you can measure reliably and quickly enough for the agent to learn from. In order of preference:
+
+- Contribution profit after product cost, discounts, returns and fees.
+
+- Gross margin on orders, if returns data arrives too slowly.
+
+- Qualified conversions with a quality filter, for lead generation.
+
+- Revenue-based ROAS, only with guardrails on discount depth and audience mix.
+
+Our sister app Trafix (https://trafix.app/) is built around true-profit ROAS for Meta and Google, and it is worth reading their thinking if your agents currently optimise on platform-reported revenue.
+
+### Terms that matter here
+
+- Vanity metric: a number that looks impressive but does not reliably reflect business value.
+
+- True-profit ROAS: return on ad spend calculated on profit after costs, not on revenue.
+
+- Creative fatigue: declining performance as an audience sees the same creative repeatedly.
+
+- Guardrail: a hard limit an agent cannot cross without approval.
+
+## Which optimisation decisions can agents make alone?
+
+Using our checkpoint map (/blog/human-in-the-loop-marketing/), we let agents act alone on reversible, mechanical moves:
+
+- Pausing creative that shows clear fatigue.
+
+- Shifting budget between proven ad sets within an agreed ceiling.
+
+- Adjusting bids within a defined range.
+
+And we keep humans on anything that changes strategy:
+
+- Launching into new audiences.
+
+- Abandoning an audience that converts slowly but may matter long term.
+
+- Changing the offer or deepening discounts.
+
+- Moving budget between channels beyond the ceiling.
+
+## When should a human overrule an optimisation agent?
+
+When the agent is right on its metric and wrong on the business. Common examples:
+
+### Overrule checklist
+
+- The winning variant leans on fear, insecurity or false urgency.
+
+- Performance is concentrated in an audience the brand is trying to move away from.
+
+- Results depend on discount depth the business cannot sustain.
+
+- A slower-converting audience is being starved, though it carries brand-building value.
+
+- The agent is exploiting a measurement quirk rather than real behaviour.
+
+An agent can tell you what is working. Only a person can tell you whether it should.
+
+## How does audience research make optimisation smarter?
+
+Optimisation agents learn from what happens after spend. Research agents learn from what audiences say before it. Combining them means the optimisation loop is testing creative that already addresses real tensions, rather than burning budget discovering them. Our research runs on SOMIN, an AI audience-research platform; its paid media intelligence (https://somin.ai/somin-paid-media/) connects audience insight with campaign performance.
+
+For agencies wanting an outside view of measurement, the Analytic Partners case study (https://somin.ai/agencies-analytic-partners-case-study/) is a good reference on pairing audience insight with rigorous analytics.
+
+## How should results be reported to clients?
+
+Honestly, and in plain language. Each week, our conductors report what agents changed, why, and what the human overruled. We include what went wrong. Clients evaluating agency performance beyond vanity metrics deserve to see the decisions, not just the dashboard. Every change should be traceable, as we argue in our audit trail piece (/blog/audit-trail-for-ai-agents/).
+
+## What should an optimisation guardrail look like?
+
+Guardrails work best when they are numeric, specific and written into the charter before launch. Examples we commonly use:
+
+- A daily ceiling on how much budget an agent may move without approval.
+- A maximum discount depth any variant may promote.
+- A minimum share of spend reserved for audiences the brand is building, regardless of short-term efficiency.
+- A frequency cap, so no audience sees the same creative past the point of fatigue.
+- An alert, not an action, whenever performance changes faster than a set rate, because sudden jumps are often measurement problems.Guardrails should be revisited monthly. If an agent hits a guardrail repeatedly, either the guardrail is wrong or the strategy is, and a human needs to decide which.
+
+## What about creative fatigue?
+
+Fatigue detection is one of the most useful jobs for optimisation agents, because it is tedious for people to watch and easy to miss. Agents spot declining response early and can rotate creative within the approved pool. The human job is making sure the pool is refreshed with genuinely new ideas, not minor variations of the tired ones.
+
+Finally, agree in advance how long a test must run before an agent may declare a winner. Agents will happily call results early on thin data, especially when the target metric is noisy. A minimum learning period, written into the charter, protects you from scaling yesterday's lucky streak into tomorrow's budget, and it gives the human reviewer a fair basis for the call.
+
+If your agents are currently chasing a number you do not quite trust, brief the agents at ask@agentc.marketing and we will help you re-point them.
+
+
+# Why every AI agent decision needs an audit trail
+URL: https://agentc.marketing/blog/audit-trail-for-ai-agents/ · Published 2026-07-20
+
+An audit trail for AI marketing agents is a record of every material action an agent took, the evidence and reasoning behind it, the alternatives it considered, and the human who approved or reviewed it. It lets a team explain any decision after the fact, spot drift early and give clients a straight answer to the question "why did the agent do that?"
+
+## Why do agents need an audit trail when people often do not?
+
+People do leave trails: emails, meeting notes, a colleague who remembers. And people can be asked. Agents act at volume, at speed and often overnight. Without a deliberate record, nobody can reconstruct why a budget moved at 3am or why a particular message went to a particular audience. When something goes wrong, the answer becomes "the AI did it", which is the one answer we never accept at AgentC.
+
+There is a trust dimension too. Our organising principle is that ethical technology requires the courage to prioritise humanity over efficiency. Transparency is one of the most practical forms that courage takes. A brand that can show its working is easier to trust than one that cannot.
+
+## What should an agent audit trail record?
+
+### The minimum useful record
+
+- Action: what the agent did, in plain language.
+
+- Time and scope: when, on which channel, campaign or audience.
+
+- Trigger: what prompted it, such as a fatigue signal or a new research cluster.
+
+- Evidence: links to the data or posts it relied on, not a summary.
+
+- Alternatives: what else it considered and why it rejected those.
+
+- Authority: whether it acted alone under its charter or with approval, and from whom.
+
+- Reversal: how to undo it, if possible.
+
+The evidence field is where most systems fall short. A log that says "moved budget because performance improved" is barely better than nothing. A log that links to the specific metric movement, or for research to the specific posts, can be checked.
+
+## Where does evidence come from for research decisions?
+
+For research, our agents run on SOMIN, an AI audience-research platform built on the idea that every AI conclusion can be checked against the posts behind it. Concept tags and tensions trace back to the conversations that evidence them. That means our audit trail for research is not a reconstruction; it is native. SOMIN's reporting tools (https://somin.ai/somin-reporting/) carry the same traceability into client-facing reports.
+
+For a listening-led view of the same principle, our sister app Somonitor (https://somonitor.ai/) applies SOMIN's concept engine to always-on brand monitoring, where being able to show the posts behind an alert matters enormously.
+
+## Who actually reads the audit trail?
+
+If nobody reads it, it is a storage cost. We assign three readers.
+
+### The conductor, daily
+
+A short digest of overnight actions, with anything unusual flagged. Most days this takes minutes.
+
+### A reviewer, weekly
+
+A colleague who is not on the account samples decisions at random. Fresh eyes catch drift that the account strategist has normalised.
+
+### The client, on request
+
+Any client can ask about any decision and get the record. We also include a plain-language summary of agent actions and human overrides in regular reporting, as described in our piece on optimisation agents (/blog/ai-optimisation-beyond-vanity-metrics/).
+
+Transparency is not a report you produce when asked. It is a habit you build before anyone does.
+
+## What patterns should reviewers look for?
+
+- Drift: an agent's actions gradually moving away from the charter's purpose.
+
+- Concentration: spend or messaging piling into one audience or angle.
+
+- Silent overrides: a reviewer who never rejects anything.
+
+- Evidence gaps: actions with weak or missing evidence links.
+
+- Repeat reversals: the same kind of action being undone again and again, which means the charter needs changing.
+
+## Does an audit trail help with regulation?
+
+It helps, though it is not a legal compliance programme on its own. Rules on automated decision-making, advertising standards and data protection vary by market and are changing. A clear record of what your agents did and who approved it puts you in a far better position to answer any regulator, platform or customer question. Take local legal advice for your specific obligations.
+
+## How do you start an audit trail without drowning in logs?
+
+- Log only material actions, as defined in your agent charter (/blog/governing-ai-marketing-agents/).
+
+- Insist on evidence links from day one; retrofitting them is painful.
+
+- Write the daily digest for a busy human, not a database.
+
+- Review a random sample weekly, and act on what you find.
+
+Agencies building client trust around AI research can find a useful reference in the Click2View Asia case study (https://somin.ai/agencies-click2view-asia-case-study/).
+
+## What does a good daily digest look like?
+
+One screen, three sections. First, what agents did alone, grouped by type, with anything outside normal ranges highlighted. Second, what is waiting for a decision, with deadlines. Third, anything the agents found surprising, such as a new audience tension or an unexpected performance shift. Each line links to its full record. If a digest takes more than ten minutes to read, it is reporting too much or the agents are doing too much unsupervised. Fix the charter, not the reader.
+
+One last point on retention. Keep audit records for at least as long as the campaigns they describe can generate questions, which for most brands means well beyond the flight dates. Complaints, platform reviews and internal post-mortems often arrive months later. A trail that has been deleted is no help then, and rebuilding the reasoning from memory rarely satisfies anyone.
+
+Treat the trail as part of the work, not overhead on top of it. The teams that find audit trails burdensome are usually logging everything and reading nothing; the teams that find them valuable log less and read it properly.
+
+If you want your agents to be able to explain themselves, brief the agents at ask@agentc.marketing.
+
+
+# How to brief AI agents: a brief template for conductors
+URL: https://agentc.marketing/blog/how-to-brief-ai-agents/ · Published 2026-07-06
+
+To brief AI agents well, give them a purpose rather than a task list, define the boundaries they must not cross, describe the audience in real language, specify what good looks like and what to avoid, and set checkpoints where they must stop for a human. A strong agent brief reads like a good creative brief with explicit rules attached.
+
+## Why do most agent briefs fail?
+
+Because they are written like prompts. "Write ten Instagram captions for our new protein bar" is an instruction. It gives an agent no purpose, no audience, no boundaries and no taste to aim for. The agent fills the gaps with averages, and you get average work back.
+
+Agents also take briefs more literally than people. A human copywriter will ask what you meant. An agent will usually just proceed. Every ambiguity in a brief becomes a decision the agent makes for you.
+
+## What should an agent brief contain?
+
+### The AgentC agent brief template
+
+- Purpose: the business outcome, in one sentence, and how it will be judged.
+
+- Audience: who they are, the tension they feel, and phrases they actually use.
+
+- Evidence: the research the agent should draw on, linked.
+
+- Brand boundaries: claims it may not make, tones it must avoid, topics that are off-limits.
+
+- What good looks like: two or three examples of work you admire and why.
+
+- What to avoid: two or three examples of category clichés.
+
+- Volume and format: how many options, in what shape.
+
+- Checkpoints: where the agent must stop and wait for review.
+
+- Owner: the named human conductor for this loop.
+
+Items five and six do the most for quality. Agents respond strongly to examples, and naming clichés explicitly helps them steer away from the sea of sameness.
+
+## How do you describe an audience to an agent?
+
+Use evidence, not demographics. "Women 25 to 34" tells an agent very little. "People who want to cook healthily on weeknights but feel guilty when they order in, and who describe themselves as 'too tired to think about dinner'" tells it a great deal.
+
+That is why our briefs start from research. Our agents run on SOMIN, an AI audience-research platform, which surfaces tensions with the real posts behind them. SOMIN's CRM (https://somin.ai/somin-crm/) and audience tools help keep those descriptions consistent across loops. We explain the research stage in how AI agents do audience research without guessing (/blog/ai-agents-audience-research/).
+
+## What does a worked example look like?
+
+A condensed brief for a creative agent:
+
+Purpose: increase trial of a meal-kit service among busy parents; judged by first-order profit, not clicks. Audience tension: wanting to cook real food for the family while having no energy to plan it. Phrases from research: "decision fatigue", "same three dinners". Boundaries: no health claims; no guilt about takeaway; no implying parents are failing. Good: warm, specific, slightly funny. Avoid: "dinner, sorted", stock smiling-family imagery, countdown urgency. Volume: 30 headline and opening-line pairs. Checkpoint: stop after drafts for human edit. Owner: account conductor.
+Notice the boundary "no guilt about takeaway". Guilt would probably perform. It is also exactly the kind of efficiency that costs humanity. Writing it into the brief means the agent never needs to be corrected for it.
+
+## How detailed should brand boundaries be?
+
+Detailed enough to be checked. "Stay on-brand" cannot be enforced. "Never compare directly with named competitors" can. If your brand has a voice system, convert its principles into explicit rules for agents. Our sister consultancy GPT3 Marketing (https://gpt3.marketing/) builds brand voice systems designed to be usable by both humans and AI, and their approach is worth a look.
+
+## How often should briefs be updated?
+
+Whenever the human edit keeps correcting the same thing. If a conductor rejects variants for the same reason three weeks running, that reason belongs in the brief. Briefs are living documents in an agentic setup; the edit loop feeds the brief loop. We cover the editing side in why AI creative needs a human edit (/blog/ai-creative-needs-a-human-edit/).
+
+## Where can I learn more?
+
+For agencies, SOMIN for agencies (https://somin.ai/somin-for-agencies/) shows how audience research flows into briefs, and the Blak Labs case study (https://somin.ai/agencies-blak-labs-case-study/) is a good example of a creative agency using AI insight. The Marketing Mondays (https://mondays.marketing/) community also decodes campaigns weekly, which is useful raw material for the "what good looks like" section of any brief.
+
+## What are the most common briefing mistakes?
+
+- Briefing the task, not the outcome. "Write captions" instead of "increase trial among people who feel X".
+- Describing the audience by demographics alone. Agents need tensions and language, not age bands.
+- Leaving boundaries implied. Anything you would be upset to see should be written down.
+- Asking for too much volume. More options than a human can genuinely review turns the edit into skimming.
+- No owner. A brief without a named conductor has nobody to update it when the agent drifts.Most of these mistakes come from treating agents as fast copywriters rather than as collaborators who need context. Brief them the way you would brief a talented new colleague on their first day, then add the rules a talented new colleague would know without asking. The extra ten minutes at the start saves hours of correction later.
+
+A final tip: test every new brief on a small batch first. Ask the agent for five options, read them, and fix the brief before asking for thirty. Ten minutes of calibration catches most misunderstandings, from tone that is slightly off to a boundary the agent read too narrowly, and it means the full run arrives closer to what the conductor actually wanted.
+
+When you are ready, brief the agents at ask@agentc.marketing. A human conductor reads every brief first.
