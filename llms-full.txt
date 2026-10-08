@@ -43,7 +43,7 @@
 ## Sister companies
 - [Marketing Mondays](https://mondays.marketing/): One real signal, decoded every Monday
 - [Somonitor](https://somonitor.ai/): Always-on listening you can check
-- [Trafix](https://trafix.app/): Paid traffic, measured in profit
+- [FMedia](https://fmedia.marketing/): Paid traffic, measured in profit
 - [GPT3 Marketing](https://gpt3.marketing/): Six years of AI content craft
 - [GPT5 Marketing](https://gpt5.marketing/): Marketing redesigned for reasoning models
 - [Mindfuse](https://mindfuse.sg/): Consumer psychology and culture, decoded for SEA
@@ -613,7 +613,7 @@ That also means taste can be taught. Junior strategists at AgentC sit in on edit
 
 ## Should creative be scored before it is edited?
 
-Scoring helps, but it should inform the edit, not replace it. Predictive scoring of creative clickability before media spend is useful for ranking survivors of the edit and for avoiding expensive dead ends. Our sister app Trafix (https://trafix.app/) uses SOMIN's pre-spend clickability prediction for exactly this. But a score will not tell you whether a line is true to the brand or merely effective. That stays human.
+Scoring helps, but it should inform the edit, not replace it. Predictive scoring of creative clickability before media spend is useful for ranking survivors of the edit and for avoiding expensive dead ends. Our sister app FMedia (https://fmedia.marketing/) uses SOMIN's pre-spend clickability prediction for exactly this. But a score will not tell you whether a line is true to the brand or merely effective. That stays human.
 
 ## What does a worked example look like?
 
@@ -659,7 +659,7 @@ Whatever is closest to real business value that you can measure reliably and qui
 
 - Revenue-based ROAS, only with guardrails on discount depth and audience mix.
 
-Our sister app Trafix (https://trafix.app/) is built around true-profit ROAS for Meta and Google, and it is worth reading their thinking if your agents currently optimise on platform-reported revenue.
+Our sister app FMedia (https://fmedia.marketing/) is built around true-profit ROAS for Meta and Google, and it is worth reading their thinking if your agents currently optimise on platform-reported revenue.
 
 ### Terms that matter here
 
