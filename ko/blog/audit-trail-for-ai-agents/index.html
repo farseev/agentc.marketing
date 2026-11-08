@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>모든 AI 에이전트 결정에 감사 추적이 필요한 이유 | AgentC</title>
+<meta name="description" content="마케팅 에이전트가 무엇을 왜 했는지 설명할 수 없다면 이를 방어할 수도 없습니다. 유용한 에이전트 감사 추적이 기록하는 것과 그것을 읽는 사람.">
+<link rel="canonical" href="https://agentc.marketing/ko/blog/audit-trail-for-ai-agents/">
+<link rel="alternate" hreflang="en-SG" href="https://agentc.marketing/blog/audit-trail-for-ai-agents/">
+<link rel="alternate" hreflang="zh-Hans" href="https://agentc.marketing/zh-hans/blog/audit-trail-for-ai-agents/">
+<link rel="alternate" hreflang="zh-Hant" href="https://agentc.marketing/zh-hant/blog/audit-trail-for-ai-agents/">
+<link rel="alternate" hreflang="ja" href="https://agentc.marketing/ja/blog/audit-trail-for-ai-agents/">
+<link rel="alternate" hreflang="ko" href="https://agentc.marketing/ko/blog/audit-trail-for-ai-agents/">
+<link rel="alternate" hreflang="x-default" href="https://agentc.marketing/blog/audit-trail-for-ai-agents/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#120B24">
+<meta property="og:site_name" content="AgentC">
+<meta property="og:type" content="website">
+<meta property="og:title" content="모든 AI 에이전트 결정에 감사 추적이 필요한 이유">
+<meta property="og:description" content="마케팅 에이전트가 무엇을 왜 했는지 설명할 수 없다면 이를 방어할 수도 없습니다. 유용한 에이전트 감사 추적이 기록하는 것과 그것을 읽는 사람.">
+<meta property="og:url" content="https://agentc.marketing/ko/blog/audit-trail-for-ai-agents/">
+<meta property="og:image" content="https://agentc.marketing/assets/img/og/audit-trail-for-ai-agents.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:type" content="image/jpeg"><meta property="og:image:alt" content="모든 AI 에이전트 결정에 감사 추적이 필요한 이유, AgentC">
+<meta property="og:locale" content="ko_KR">
+<meta property="og:locale:alternate" content="en_SG">
+<meta property="og:locale:alternate" content="zh_CN">
+<meta property="og:locale:alternate" content="zh_TW">
+<meta property="og:locale:alternate" content="ja_JP">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="모든 AI 에이전트 결정에 감사 추적이 필요한 이유">
+<meta name="twitter:description" content="마케팅 에이전트가 무엇을 왜 했는지 설명할 수 없다면 이를 방어할 수도 없습니다. 유용한 에이전트 감사 추적이 기록하는 것과 그것을 읽는 사람.">
+<meta name="twitter:image" content="https://agentc.marketing/assets/img/og/audit-trail-for-ai-agents.jpg">
+<meta name="twitter:image:alt" content="모든 AI 에이전트 결정에 감사 추적이 필요한 이유, AgentC">
+<meta name="application-name" content="AgentC"><meta name="apple-mobile-web-app-title" content="AgentC">
+<meta property="article:author" content="AgentC"><meta property="article:published_time" content="2026-07-20"><meta property="article:section" content="거버넌스"><meta name="keywords" content="AI audit trail, agent transparency, explainable AI marketing, AI governance, marketing accountability">
+<link rel="icon" href="../../../favicon.ico" sizes="48x48">
+<link rel="icon" href="../../../favicon.svg" type="image/svg+xml">
+<link rel="icon" href="../../../assets/img/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="../../../assets/img/icon-180.png">
+<link rel="manifest" href="../../../site.webmanifest">
+<link rel="alternate" type="application/rss+xml" title="AgentC 블로그" href="https://agentc.marketing/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700;800&family=Inter:wght@400;500;600&family=Noto+Sans+KR:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="../../../assets/site.css">
+<style id="i18n-font">:root{--fh:'Inter Tight','Noto Sans KR',system-ui,sans-serif;--fb:'Inter','Noto Sans KR',system-ui,sans-serif}</style>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZBJRWQEFZV"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-ZBJRWQEFZV');document.addEventListener('click',function(e){var a=e.target.closest('a[href]');if(!a)return;var h=a.getAttribute('href')||'';if(/^mailto:/.test(h))return gtag('event','generate_lead',{method:'email',link_text:(a.textContent||'').trim().slice(0,80)});var m=h.match(/^https?:\/\/(?:www\.)?((?:cloud\.|share\.)?somin\.ai)(\/[^?#]*)?/);if(m)gtag('event','somin_click',{destination:m[1],path:(m[2]||'/').slice(0,80),link_text:(a.textContent||'').trim().slice(0,80)});});document.addEventListener('submit',function(e){var f=e.target;if(f&&f.tagName==='FORM')gtag('event','generate_lead',{method:'form',form_class:String(f.className||'').slice(0,40)});},true);</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","headline":"모든 AI 에이전트 결정에 감사 추적이 필요한 이유","description":"마케팅 에이전트가 무엇을 왜 했는지 설명할 수 없다면 이를 방어할 수도 없습니다. 유용한 에이전트 감사 추적이 기록하는 것과 그것을 읽는 사람.","datePublished":"2026-07-20","dateModified":"2026-07-20","image":["https://agentc.marketing/assets/img/og/audit-trail-for-ai-agents.jpg","https://agentc.marketing/assets/img/a09.webp"],"url":"https://agentc.marketing/ko/blog/audit-trail-for-ai-agents/","mainEntityOfPage":"https://agentc.marketing/ko/blog/audit-trail-for-ai-agents/","keywords":"AI audit trail, agent transparency, explainable AI marketing, AI governance, marketing accountability","articleSection":"거버넌스","inLanguage":"ko","wordCount":952,"author":{"@type":"Organization","name":"AgentC editorial team","url":"https://agentc.marketing/"},"publisher":{"@id":"https://agentc.marketing/#org"},"mentions":[{"@type":"Organization","name":"SOMIN","url":"https://somin.ai/"}],"speakable":{"@type":"SpeakableSpecification","cssSelector":[".answer"]}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"AgentC","item":"https://agentc.marketing/ko/"},{"@type":"ListItem","position":2,"name":"블로그","item":"https://agentc.marketing/ko/blog/"},{"@type":"ListItem","position":3,"name":"모든 AI 에이전트 결정에 감사 추적이 필요한 이유","item":"https://agentc.marketing/ko/blog/audit-trail-for-ai-agents/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"AI 에이전트 감사 추적이란 무엇입니까?","acceptedAnswer":{"@type":"Answer","text":"AI 에이전트가 수행하는 각각의 중요한 행동에 대한 기록으로, 근거, 추론, 검토한 대안, 승인한 사람, 되돌리는 방법을 포함합니다."}},{"@type":"Question","name":"AI 에이전트 로그는 누가 검토해야 합니까?","acceptedAnswer":{"@type":"Answer","text":"책임 전략가가 매일, 독립적인 동료가 매주 무작위 샘플링으로, 그리고 클라이언트가 결정에 대해 물어볼 때마다 검토합니다."}},{"@type":"Question","name":"감사 추적만으로 AI 규제에 충분합니까?","acceptedAnswer":{"@type":"Answer","text":"크게 도움이 되지만 완전한 컴플라이언스 프로그램은 아닙니다. 요건은 시장마다 다르므로, 기록을 잘 남기는 것과 함께 현지 법률 자문을 받으십시오."}}]},{"@type":"Organization","@id":"https://agentc.marketing/#org","name":"AgentC","url":"https://agentc.marketing/","logo":"https://agentc.marketing/brand/logo.svg","email":"ask@agentc.marketing","description":"AgentC is an agentic-AI marketing agency. AI agents run continuous research, creative and optimisation loops, while human strategists own judgement, taste and accountability. The agents run on SOMIN, an AI audience-research platform and AgentC's technology partner, so every recommendation traces back to real audience conversations. The C stands for the conductor: the human who decides what the orchestra plays.","slogan":"Agents play. Humans conduct.","areaServed":"Singapore and Asia-Pacific","address":{"@type":"PostalAddress","addressLocality":"Singapore","addressCountry":"SG"},"contactPoint":{"@type":"ContactPoint","email":"ask@agentc.marketing","contactType":"sales"},"knowsAbout":["AI accountability","AI agent checkpoints","AI agent governance","AI agents marketing roles","AI approval workflow","AI audience research","AI audit trail","AI campaign optimisation","AI creative","AI customer experience","AI generated ads","AI governance","AI marketing agency","AI marketing agents","AI marketing brief","AI marketing policy","SOMIN","agent charter","agent prompt template","agent transparency","agentic marketing","agentic organisation","agentic workflow","audience tensions","automated marketing ethics"],"memberOf":{"@type":"Organization","name":"SOMIN partner network","url":"https://somin.ai/"},"brand":{"@type":"Brand","name":"AgentC"}}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">본문으로 건너뛰기</a>
+<header class="site"><div class="wrap">
+<a class="logo" href="../../index.html" aria-label="AgentC 홈"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 40" width="200" height="40" role="img" aria-label="AgentC 로고"><path d="M20 2l15.6 9v18L20 38 4.4 29V11z" fill="#7C3AED"/><path d="M26.5 14.5a8 8 0 1 0 0 11" fill="none" stroke="#fff" stroke-width="3.6" stroke-linecap="round"/><circle cx="27" cy="20" r="2.3" fill="#fff"/><text x="50" y="28" font-family="'Inter Tight', system-ui, sans-serif" font-size="22" font-weight="800" letter-spacing="-0.6"><tspan fill="#120B24">Agent</tspan><tspan fill="#7C3AED">C</tspan></text></svg></a>
+<nav aria-label="메인"><a href="../../index.html#work">사례</a><a href="../../index.html#services">하는 일</a><a href="../index.html">인사이트</a><a href="../../index.html#faq">FAQ</a><a href="../../../brand/index.html">브랜드</a><a class="btn" href="mailto:ask@agentc.marketing?subject=Brief%20for%20AgentC">에이전트에게 브리핑하기</a><!--i18n:langsw--><details class="langsw" translate="no"><summary aria-label="언어: 한국어"><span>한국어</span></summary><ul><li><a href="../../../blog/audit-trail-for-ai-agents/index.html" hreflang="en-SG" lang="en-SG">English</a></li><li><a href="../../../zh-hans/blog/audit-trail-for-ai-agents/index.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li><li><a href="../../../zh-hant/blog/audit-trail-for-ai-agents/index.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li><li><a href="../../../ja/blog/audit-trail-for-ai-agents/index.html" hreflang="ja" lang="ja">日本語</a></li><li><a href="index.html" hreflang="ko" lang="ko" aria-current="page">한국어</a></li></ul></details><script>document.addEventListener('click',function(e){var a=e.target.closest('.langsw a[hreflang]');if(a&&typeof gtag==='function')gtag('event','language_switch',{language_from:document.documentElement.lang,language_to:a.getAttribute('hreflang'),page_path:location.pathname});var d=document.querySelector('.langsw[open]');if(d&&!d.contains(e.target))d.removeAttribute('open');});</script><!--/i18n:langsw--></nav>
+</div></header>
+<main id="main">
+<article class="post"><div class="wrap narrow head"><nav class="crumbs" aria-label="이동 경로"><a href="../../index.html">AgentC</a> / <a href="../index.html">블로그</a> / 거버넌스</nav>
+<h1 style="margin-top:18px">모든 AI 에이전트 결정에 감사 추적이 필요한 이유</h1><p class="meta">2026년 7월 20일 · 6분 분량 · AgentC 편집팀 · <a href="#faq">FAQ</a></p></div>
+<div class="wrap" style="max-width:1000px"><figure class="cover" style="margin:0 0 40px"><img src="../../../assets/img/a09.webp" alt="돋보기 아래, 각각 출처와 연결된 보라색 에이전트 구체들이 남긴 빛나는 발자국" width="1536" height="1024" fetchpriority="high"></figure></div>
+<div class="wrap narrow prose"><p class="answer">AI 마케팅 에이전트의 감사 추적은 에이전트가 수행한 모든 중요한 행동과 그 근거 및 추론, 검토한 대안, 그리고 이를 승인하거나 검토한 사람을 기록한 것입니다. 이를 통해 팀은 어떤 결정이든 사후에 설명하고, 이탈을 일찍 발견하고, "에이전트는 왜 그렇게 했습니까?"라는 클라이언트의 질문에 분명하게 답할 수 있습니다.</p>
+<h2>사람은 흔히 그렇지 않은데, 에이전트에게는 왜 감사 추적이 필요합니까?</h2>
+<p>사람도 흔적을 남깁니다. 이메일, 회의록, 기억하는 동료가 있습니다. 그리고 사람에게는 물어볼 수 있습니다. 에이전트는 대량으로, 빠르게, 그리고 흔히 밤사이에 행동합니다. 의도적인 기록이 없으면 새벽 3시에 예산이 왜 움직였는지, 특정 메시지가 왜 특정 오디언스에게 갔는지 아무도 재구성할 수 없습니다. 문제가 생기면 답은 "AI가 그랬다"가 되는데, 이는 AgentC가 결코 받아들이지 않는 단 하나의 답입니다.</p>
+<p>신뢰의 측면도 있습니다. 저희의 조직 원칙은 윤리적인 기술에는 효율보다 인간다움을 우선하는 용기가 필요하다는 것입니다. 투명성은 그 용기가 취하는 가장 실용적인 형태 중 하나입니다. 자신의 작업 과정을 보여 줄 수 있는 브랜드는 그렇지 못한 브랜드보다 신뢰하기 쉽습니다.</p>
+<h2>에이전트 감사 추적에는 무엇을 기록해야 합니까?</h2>
+<div class="checklist">
+<h3>최소한의 유용한 기록</h3>
+<ul>
+<li><strong>행동:</strong> 에이전트가 한 일을 평이한 언어로.</li>
+<li><strong>시점과 범위:</strong> 언제, 어떤 채널, 캠페인, 오디언스에서.</li>
+<li><strong>계기:</strong> 피로도 신호나 새로운 리서치 클러스터처럼 행동을 촉발한 것.</li>
+<li><strong>근거:</strong> 요약이 아니라, 의존한 데이터나 게시물로의 링크.</li>
+<li><strong>대안:</strong> 그 밖에 검토한 것과 그것을 기각한 이유.</li>
+<li><strong>권한:</strong> 헌장에 따라 단독으로 행동했는지, 승인을 받았는지, 받았다면 누구에게서인지.</li>
+<li><strong>되돌리기:</strong> 가능하다면 이를 취소하는 방법.</li>
+</ul>
+</div>
+<p>대부분의 시스템이 부족한 부분은 근거 항목입니다. "성과가 개선되어 예산을 옮겼다"라고만 적힌 로그는 아무것도 없는 것보다 조금 나을 뿐입니다. 구체적인 지표 변화, 리서치라면 구체적인 게시물로 링크되는 로그는 확인할 수 있습니다.</p>
+<h2>리서치 결정의 근거는 어디에서 옵니까?</h2>
+<p>리서치의 경우, 저희 에이전트는 모든 AI 결론을 그 근거가 되는 게시물과 대조해 확인할 수 있어야 한다는 생각으로 만든 AI 오디언스 리서치 플랫폼 SOMIN 위에서 작동합니다. 콘셉트 태그와 긴장은 이를 뒷받침하는 대화까지 거슬러 추적됩니다. 즉 리서치에 대한 저희의 감사 추적은 사후 재구성이 아니라 처음부터 내장되어 있습니다. SOMIN의 <a href="https://somin.ai/somin-reporting/" rel="noopener">리포팅 도구</a>는 같은 추적 가능성을 클라이언트용 보고서로 이어 줍니다.</p>
+<p>같은 원칙을 리스닝 관점에서 보려면, 저희 자매 앱 <a href="https://somonitor.ai/" rel="noopener">Somonitor</a>가 SOMIN의 콘셉트 엔진을 상시 브랜드 모니터링에 적용하고 있습니다. 알림 뒤에 있는 게시물을 보여 줄 수 있는지가 매우 중요한 영역입니다.</p>
+<h2>감사 추적은 실제로 누가 읽습니까?</h2>
+<p>아무도 읽지 않는다면 그것은 저장 비용일 뿐입니다. 저희는 세 명의 독자를 지정합니다.</p>
+<h3>지휘자, 매일</h3>
+<p>밤사이 행동을 짧게 정리한 다이제스트로, 특이한 점은 표시해 둡니다. 대부분의 날에는 몇 분이면 됩니다.</p>
+<h3>검토자, 매주</h3>
+<p>해당 어카운트를 맡지 않은 동료가 결정을 무작위로 샘플링합니다. 새로운 시각은 어카운트 전략가가 익숙해져 버린 이탈을 잡아냅니다.</p>
+<h3>클라이언트, 요청 시</h3>
+<p>어떤 클라이언트든 어떤 결정에 대해서든 물어보고 기록을 받을 수 있습니다. 또한 <a href="../ai-optimisation-beyond-vanity-metrics/index.html">최적화 에이전트에 관한 저희 글</a>에서 설명한 대로, 정기 보고에 에이전트 행동과 사람의 개입에 대한 평이한 요약을 포함합니다.</p>
+<blockquote>투명성은 요청받았을 때 만드는 보고서가 아닙니다. 누가 요청하기 전에 길러 두는 습관입니다.</blockquote>
+<h2>검토자는 어떤 패턴을 살펴야 합니까?</h2>
+<ul>
+<li><strong>이탈:</strong> 에이전트의 행동이 헌장의 목적에서 점점 멀어지는 것.</li>
+<li><strong>쏠림:</strong> 광고비나 메시지가 하나의 오디언스나 앵글에 몰리는 것.</li>
+<li><strong>조용한 승인:</strong> 아무것도 거절하지 않는 검토자.</li>
+<li><strong>근거 공백:</strong> 근거 링크가 약하거나 없는 행동.</li>
+<li><strong>반복되는 되돌리기:</strong> 같은 종류의 행동이 거듭 취소되는 것으로, 헌장을 바꿔야 한다는 뜻입니다.</li>
+</ul>
+<h2>감사 추적은 규제 대응에 도움이 됩니까?</h2>
+<p>도움이 되지만, 그것만으로 법적 컴플라이언스 프로그램이 되지는 않습니다. 자동화된 의사결정, 광고 기준, 데이터 보호에 관한 규칙은 시장마다 다르고 계속 바뀌고 있습니다. 에이전트가 무엇을 했고 누가 승인했는지에 대한 명확한 기록이 있으면, 규제 기관, 플랫폼, 고객의 어떤 질문에도 훨씬 나은 위치에서 답할 수 있습니다. 구체적인 의무에 대해서는 현지 법률 자문을 받으십시오.</p>
+<h2>로그에 파묻히지 않고 감사 추적을 시작하려면 어떻게 해야 합니까?</h2>
+<ol>
+<li><a href="../governing-ai-marketing-agents/index.html">에이전트 헌장</a>에 정의된 중요한 행동만 기록하십시오.</li>
+<li>첫날부터 근거 링크를 요구하십시오. 나중에 덧붙이는 일은 고통스럽습니다.</li>
+<li>일일 다이제스트는 데이터베이스가 아니라 바쁜 사람을 위해 쓰십시오.</li>
+<li>매주 무작위 샘플을 검토하고, 발견한 것에 따라 조치하십시오.</li>
+</ol>
+<p>AI 리서치를 중심으로 클라이언트의 신뢰를 쌓으려는 에이전시라면 <a href="https://somin.ai/agencies-click2view-asia-case-study/" rel="noopener">Click2View Asia 사례 연구</a>가 유용한 참고 자료가 될 것입니다.</p>
+<h2>좋은 일일 다이제스트는 어떤 모습입니까?</h2><p>한 화면, 세 섹션입니다. 첫째, 에이전트가 단독으로 한 일을 유형별로 묶고 정상 범위를 벗어난 것은 강조합니다. 둘째, 결정을 기다리는 일과 그 기한입니다. 셋째, 새로운 오디언스 긴장이나 예상치 못한 성과 변화처럼 에이전트가 놀랍다고 판단한 것입니다. 각 줄은 전체 기록으로 연결됩니다. 다이제스트를 읽는 데 10분 넘게 걸린다면 너무 많이 보고하고 있거나 에이전트가 감독 없이 너무 많은 일을 하고 있는 것입니다. 독자가 아니라 헌장을 고치십시오.</p><p>보존에 관해 마지막으로 한 가지 말씀드립니다. 감사 기록은 그것이 다루는 캠페인에 대해 질문이 나올 수 있는 기간만큼은 최소한 보관하십시오. 대부분의 브랜드에게 이는 캠페인 집행 기간을 훨씬 넘어서는 기간을 뜻합니다. 불만 제기, 플랫폼 심사, 내부 사후 검토는 몇 달 뒤에 오는 경우가 많습니다. 그때 이미 삭제된 기록은 아무 도움이 되지 않으며, 기억에 의존해 추론을 재구성해서는 누구도 만족시키기 어렵습니다.</p><p>감사 추적을 업무 위에 얹힌 부담이 아니라 업무의 일부로 다루십시오. 감사 추적을 부담스러워하는 팀은 대개 모든 것을 기록하고 아무것도 읽지 않습니다. 가치를 느끼는 팀은 더 적게 기록하고 제대로 읽습니다.</p><p>에이전트가 스스로를 설명할 수 있기를 원하신다면 ask@agentc.marketing으로 에이전트에게 브리핑해 주십시오.</p>
+<section id="faq" style="padding:40px 0 0"><h2>자주 묻는 질문</h2><details><summary>AI 에이전트 감사 추적이란 무엇입니까?</summary><p>AI 에이전트가 수행하는 각각의 중요한 행동에 대한 기록으로, 근거, 추론, 검토한 대안, 승인한 사람, 되돌리는 방법을 포함합니다.</p></details><details><summary>AI 에이전트 로그는 누가 검토해야 합니까?</summary><p>책임 전략가가 매일, 독립적인 동료가 매주 무작위 샘플링으로, 그리고 클라이언트가 결정에 대해 물어볼 때마다 검토합니다.</p></details><details><summary>감사 추적만으로 AI 규제에 충분합니까?</summary><p>크게 도움이 되지만 완전한 컴플라이언스 프로그램은 아닙니다. 요건은 시장마다 다르므로, 기록을 잘 남기는 것과 함께 현지 법률 자문을 받으십시오.</p></details></section>
+<div class="cta-box"><h2>에이전트에게 브리핑하기</h2><p>AgentC는 에이전틱 마케팅 에이전시입니다. 저희 에이전트는 24시간 리서치하고, 만들고, 최적화하며, 저희 전략가는 무엇이 중요한지, 무엇이 브랜드에 맞는지, 무엇은 절대 자동화하지 말아야 하는지 결정합니다.</p><a class="btn" href="mailto:ask@agentc.marketing?subject=Brief%20for%20AgentC%20%28re%3A%20Why%20every%20AI%20agent%20decision%20needs%20an%20audit%20trail%29">ask@agentc.marketing으로 이메일 보내기 →</a></div>
+</div></article>
+<section class="alt"><div class="wrap"><h2>계속 읽기</h2><div class="grid g3" style="margin-top:28px"><a class="post-card" href="../what-is-agentic-marketing/index.html"><img src="../../../assets/img/a01-640.webp" alt="짙은 잉크 보라색 배경 위에서 빛나는 보라색 에이전트 구체들의 오케스트라를 지휘하는 사람 지휘자" width="640" height="427" loading="lazy"><div class="b"><span class="tag">에이전틱 마케팅</span><h3>에이전틱 마케팅이란 무엇이며, 에이전트는 누가 지휘합니까?</h3><p>에이전틱 마케팅은 AI 에이전트로 리서치, 크리에이티브, 최적화 루프를 실행합니다. 작동 방식과, 여전히 사람 지휘자가 결정하는 이유를 소개합니다.</p><div class="meta" style="margin-top:12px">2026년 10월 5일 · 6분 읽기</div></div></a><a class="post-card" href="../human-in-the-loop-marketing/index.html"><img src="../../../assets/img/a02-640.webp" alt="빛나는 보라색 에이전트 구체의 고리를 완성하는 사람의 손, 사람 체크포인트를 상징" width="640" height="427" loading="lazy"><div class="b"><span class="tag">휴먼 인 더 루프</span><h3>휴먼 인 더 루프 마케팅: 체크포인트를 어디에 둘 것인가</h3><p>휴먼 인 더 루프 마케팅은 체크포인트가 올바른 곳에 있을 때만 작동합니다. 에이전트가 단독으로 결정하는 것과 사람을 기다리는 것을 정리한 실무 지도.</p><div class="meta" style="margin-top:12px">2026년 9월 21일 · 6분 분량</div></div></a><a class="post-card" href="../governing-ai-marketing-agents/index.html"><img src="../../../assets/img/a03-640.webp" alt="반투명 가드레일이 있는 빛나는 레인을 따라 이동하는 보라색 에이전트 구체들과, 이를 지켜보는 지휘대" width="640" height="427" loading="lazy"><div class="b"><span class="tag">거버넌스</span><h3>AI 마케팅 에이전트를 관리하는 방법: 한 페이지 헌장</h3><p>AI 마케팅 에이전트에게는 더 많은 자율성보다 문서화된 규칙이 먼저 필요합니다. 범위, 데이터, 승인, 책임을 다루는 한 페이지 거버넌스 헌장.</p><div class="meta" style="margin-top:12px">2026년 9월 7일 · 6분 분량</div></div></a></div></div></section>
+</main>
+<footer class="site"><div class="wrap">
+<div class="fgrid">
+<div><div style="margin-bottom:18px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 40" width="200" height="40" role="img" aria-label="AgentC 로고"><path d="M20 2l15.6 9v18L20 38 4.4 29V11z" fill="#7C3AED"/><path d="M26.5 14.5a8 8 0 1 0 0 11" fill="none" stroke="#fff" stroke-width="3.6" stroke-linecap="round"/><circle cx="27" cy="20" r="2.3" fill="#fff"/><text x="50" y="28" font-family="'Inter Tight', system-ui, sans-serif" font-size="22" font-weight="800" letter-spacing="-0.6"><tspan fill="#FFFFFF">Agent</tspan><tspan fill="#A78BFA">C</tspan></text></svg></div><p style="max-width:30em">AI 에이전트가 모든 파트를 연주하고 사람 전략가가 지휘하는 에이전틱 마케팅 에이전시.</p>
+<p class="partner">기술 파트너 <a href="https://somin.ai/" class="somin" style="text-decoration:none"><b>SO</b><i>MIN</i></a></p>
+<p><a class="btn" href="mailto:ask@agentc.marketing?subject=Brief%20for%20AgentC">에이전트에게 브리핑하기</a></p>
+<p>이메일 <a href="mailto:ask@agentc.marketing">ask@agentc.marketing</a></p></div>
+<div><h4>AgentC</h4><ul style="list-style:none;padding:0;margin:0;line-height:2.1"><li><a href="../../index.html#services">하는 일</a></li><li><a href="../index.html">인사이트</a></li><li><a href="../../index.html#about">소개</a></li><li><a href="../../index.html#faq">FAQ</a></li><li><a href="../../../brand/index.html">브랜드 가이드라인</a></li><li><a href="https://agentc.marketing/feed.xml">RSS</a></li></ul></div>
+<div><h4>Powered by SOMIN</h4><ul style="list-style:none;padding:0;margin:0;line-height:2.1"><li><a href="https://somin.ai/" rel="noopener">somin.ai</a></li><li><a href="https://somin.ai/cases-ai-marketing-strategy/" rel="noopener">사례 연구</a></li><li><a href="https://somin.ai/somin-for-brands/" rel="noopener">브랜드용</a></li><li><a href="https://somin.ai/somin-for-agencies/" rel="noopener">에이전시용</a></li></ul></div>
+</div>
+<h4>네트워크</h4>
+<nav class="network" aria-label="자매 회사"><a href="https://mondays.marketing/" rel="noopener">Marketing Mondays<span>매주 월요일 해독하는 하나의 실제 시그널</span></a><a href="https://somonitor.ai/" rel="noopener">Somonitor<span>검증할 수 있는 상시 리스닝</span></a><a href="https://fmedia.marketing/" rel="noopener">FMedia<span>수익으로 측정하는 유료 트래픽</span></a><a href="https://gpt3.marketing/" rel="noopener">GPT3 Marketing<span>6년간 쌓아 온 AI 콘텐츠 역량</span></a><a href="https://gpt5.marketing/" rel="noopener">GPT5 Marketing<span>추론 모델 시대에 맞게 재설계한 마케팅</span></a><a href="https://mindfuse.sg/" rel="noopener">Mindfuse<span>동남아시아를 위해 해독한 소비자 심리와 문화</span></a><a href="https://snmrush.com/" rel="noopener">SNMRush<span>Search, Neural answers, Mentions. 하나의 러시.</span></a></nav>
+<p style="margin-top:40px;font-size:13px">© 2026 AgentC · agentc.marketing · 싱가포르. </p>
+</div></footer>
+</body></html>
