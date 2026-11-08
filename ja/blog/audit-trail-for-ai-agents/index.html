@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AIエージェントのすべての判断に監査証跡が必要な理由 | AgentC</title>
+<meta name="description" content="マーケティングエージェントが何をなぜ行ったかを説明できなければ、それを擁護することはできません。役に立つエージェントの監査証跡が何を記録し、誰がそれを読むのか。">
+<link rel="canonical" href="https://agentc.marketing/ja/blog/audit-trail-for-ai-agents/">
+<link rel="alternate" hreflang="en-SG" href="https://agentc.marketing/blog/audit-trail-for-ai-agents/">
+<link rel="alternate" hreflang="zh-Hans" href="https://agentc.marketing/zh-hans/blog/audit-trail-for-ai-agents/">
+<link rel="alternate" hreflang="zh-Hant" href="https://agentc.marketing/zh-hant/blog/audit-trail-for-ai-agents/">
+<link rel="alternate" hreflang="ja" href="https://agentc.marketing/ja/blog/audit-trail-for-ai-agents/">
+<link rel="alternate" hreflang="x-default" href="https://agentc.marketing/blog/audit-trail-for-ai-agents/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#120B24">
+<meta property="og:site_name" content="AgentC">
+<meta property="og:type" content="website">
+<meta property="og:title" content="AIエージェントのすべての判断に監査証跡が必要な理由">
+<meta property="og:description" content="マーケティングエージェントが何をなぜ行ったかを説明できなければ、それを擁護することはできません。役に立つエージェントの監査証跡が何を記録し、誰がそれを読むのか。">
+<meta property="og:url" content="https://agentc.marketing/ja/blog/audit-trail-for-ai-agents/">
+<meta property="og:image" content="https://agentc.marketing/assets/img/og/audit-trail-for-ai-agents.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:type" content="image/jpeg"><meta property="og:image:alt" content="AIエージェントのすべての判断に監査証跡が必要な理由、AgentC">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:locale:alternate" content="en_SG">
+<meta property="og:locale:alternate" content="zh_CN">
+<meta property="og:locale:alternate" content="zh_TW">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="AIエージェントのすべての判断に監査証跡が必要な理由">
+<meta name="twitter:description" content="マーケティングエージェントが何をなぜ行ったかを説明できなければ、それを擁護することはできません。役に立つエージェントの監査証跡が何を記録し、誰がそれを読むのか。">
+<meta name="twitter:image" content="https://agentc.marketing/assets/img/og/audit-trail-for-ai-agents.jpg">
+<meta name="twitter:image:alt" content="AIエージェントのすべての判断に監査証跡が必要な理由、AgentC">
+<meta name="application-name" content="AgentC"><meta name="apple-mobile-web-app-title" content="AgentC">
+<meta property="article:author" content="AgentC"><meta property="article:published_time" content="2026-07-20"><meta property="article:section" content="ガバナンス"><meta name="keywords" content="AI audit trail, agent transparency, explainable AI marketing, AI governance, marketing accountability">
+<link rel="icon" href="../../../favicon.ico" sizes="48x48">
+<link rel="icon" href="../../../favicon.svg" type="image/svg+xml">
+<link rel="icon" href="../../../assets/img/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="../../../assets/img/icon-180.png">
+<link rel="manifest" href="../../../site.webmanifest">
+<link rel="alternate" type="application/rss+xml" title="AgentCブログ" href="https://agentc.marketing/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700;800&family=Inter:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="../../../assets/site.css">
+<style id="i18n-font">:root{--fh:'Inter Tight','Noto Sans JP',system-ui,sans-serif;--fb:'Inter','Noto Sans JP',system-ui,sans-serif}</style>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZBJRWQEFZV"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-ZBJRWQEFZV');document.addEventListener('click',function(e){var a=e.target.closest('a[href]');if(!a)return;var h=a.getAttribute('href')||'';if(/^mailto:/.test(h))return gtag('event','generate_lead',{method:'email',link_text:(a.textContent||'').trim().slice(0,80)});var m=h.match(/^https?:\/\/(?:www\.)?((?:cloud\.|share\.)?somin\.ai)(\/[^?#]*)?/);if(m)gtag('event','somin_click',{destination:m[1],path:(m[2]||'/').slice(0,80),link_text:(a.textContent||'').trim().slice(0,80)});});document.addEventListener('submit',function(e){var f=e.target;if(f&&f.tagName==='FORM')gtag('event','generate_lead',{method:'form',form_class:String(f.className||'').slice(0,40)});},true);</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","headline":"AIエージェントのすべての判断に監査証跡が必要な理由","description":"マーケティングエージェントが何をなぜ行ったかを説明できなければ、それを擁護することはできません。役に立つエージェントの監査証跡が何を記録し、誰がそれを読むのか。","datePublished":"2026-07-20","dateModified":"2026-07-20","image":["https://agentc.marketing/assets/img/og/audit-trail-for-ai-agents.jpg","https://agentc.marketing/assets/img/a09.webp"],"url":"https://agentc.marketing/ja/blog/audit-trail-for-ai-agents/","mainEntityOfPage":"https://agentc.marketing/ja/blog/audit-trail-for-ai-agents/","keywords":"AI audit trail, agent transparency, explainable AI marketing, AI governance, marketing accountability","articleSection":"ガバナンス","inLanguage":"ja","wordCount":952,"author":{"@type":"Organization","name":"AgentC editorial team","url":"https://agentc.marketing/"},"publisher":{"@id":"https://agentc.marketing/#org"},"mentions":[{"@type":"Organization","name":"SOMIN","url":"https://somin.ai/"}],"speakable":{"@type":"SpeakableSpecification","cssSelector":[".answer"]}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"AgentC","item":"https://agentc.marketing/ja/"},{"@type":"ListItem","position":2,"name":"ブログ","item":"https://agentc.marketing/ja/blog/"},{"@type":"ListItem","position":3,"name":"AIエージェントのすべての判断に監査証跡が必要な理由","item":"https://agentc.marketing/ja/blog/audit-trail-for-ai-agents/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"AIエージェントの監査証跡とは何ですか？","acceptedAnswer":{"@type":"Answer","text":"AIエージェントが行う重要な行動それぞれの記録です。エビデンス、理由、検討した代替案、承認した人間、元に戻す方法を含みます。"}},{"@type":"Question","name":"AIエージェントのログは誰がレビューすべきですか？","acceptedAnswer":{"@type":"Answer","text":"責任を持つストラテジストが毎日、独立した同僚が毎週無作為抽出で、そしてクライアントが判断について尋ねたときにいつでも。"}},{"@type":"Question","name":"監査証跡があればAI規制への対応は十分ですか？","acceptedAnswer":{"@type":"Answer","text":"大いに役立ちますが、完全な法令遵守プログラムではありません。要件は市場によって異なるため、適切な記録の保持とあわせて現地の法律専門家の助言を受けてください。"}}]},{"@type":"Organization","@id":"https://agentc.marketing/#org","name":"AgentC","url":"https://agentc.marketing/","logo":"https://agentc.marketing/brand/logo.svg","email":"ask@agentc.marketing","description":"AgentC is an agentic-AI marketing agency. AI agents run continuous research, creative and optimisation loops, while human strategists own judgement, taste and accountability. The agents run on SOMIN, an AI audience-research platform and AgentC's technology partner, so every recommendation traces back to real audience conversations. The C stands for the conductor: the human who decides what the orchestra plays.","slogan":"Agents play. Humans conduct.","areaServed":"Singapore and Asia-Pacific","address":{"@type":"PostalAddress","addressLocality":"Singapore","addressCountry":"SG"},"contactPoint":{"@type":"ContactPoint","email":"ask@agentc.marketing","contactType":"sales"},"knowsAbout":["AI accountability","AI agent checkpoints","AI agent governance","AI agents marketing roles","AI approval workflow","AI audience research","AI audit trail","AI campaign optimisation","AI creative","AI customer experience","AI generated ads","AI governance","AI marketing agency","AI marketing agents","AI marketing brief","AI marketing policy","SOMIN","agent charter","agent prompt template","agent transparency","agentic marketing","agentic organisation","agentic workflow","audience tensions","automated marketing ethics"],"memberOf":{"@type":"Organization","name":"SOMIN partner network","url":"https://somin.ai/"},"brand":{"@type":"Brand","name":"AgentC"}}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">コンテンツへスキップ</a>
+<header class="site"><div class="wrap">
+<a class="logo" href="../../index.html" aria-label="AgentCホーム"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 40" width="200" height="40" role="img" aria-label="AgentCのロゴ"><path d="M20 2l15.6 9v18L20 38 4.4 29V11z" fill="#7C3AED"/><path d="M26.5 14.5a8 8 0 1 0 0 11" fill="none" stroke="#fff" stroke-width="3.6" stroke-linecap="round"/><circle cx="27" cy="20" r="2.3" fill="#fff"/><text x="50" y="28" font-family="'Inter Tight', system-ui, sans-serif" font-size="22" font-weight="800" letter-spacing="-0.6"><tspan fill="#120B24">Agent</tspan><tspan fill="#7C3AED">C</tspan></text></svg></a>
+<nav aria-label="メイン"><a href="../../index.html#work">実績</a><a href="../../index.html#services">私たちの活動</a><a href="../index.html">インサイト</a><a href="../../index.html#faq">よくある質問</a><a href="../../../brand/index.html">ブランド</a><a class="btn" href="mailto:ask@agentc.marketing?subject=Brief%20for%20AgentC">エージェントにブリーフを渡す</a><!--i18n:langsw--><details class="langsw" translate="no"><summary aria-label="言語: 日本語"><span>日本語</span></summary><ul><li><a href="../../../blog/audit-trail-for-ai-agents/index.html" hreflang="en-SG" lang="en-SG">English</a></li><li><a href="../../../zh-hans/blog/audit-trail-for-ai-agents/index.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li><li><a href="../../../zh-hant/blog/audit-trail-for-ai-agents/index.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li><li><a href="index.html" hreflang="ja" lang="ja" aria-current="page">日本語</a></li></ul></details><script>document.addEventListener('click',function(e){var a=e.target.closest('.langsw a[hreflang]');if(a&&typeof gtag==='function')gtag('event','language_switch',{language_from:document.documentElement.lang,language_to:a.getAttribute('hreflang'),page_path:location.pathname});var d=document.querySelector('.langsw[open]');if(d&&!d.contains(e.target))d.removeAttribute('open');});</script><!--/i18n:langsw--></nav>
+</div></header>
+<main id="main">
+<article class="post"><div class="wrap narrow head"><nav class="crumbs" aria-label="パンくずリスト"><a href="../../index.html">AgentC</a> / <a href="../index.html">ブログ</a> / ガバナンス</nav>
+<h1 style="margin-top:18px">AIエージェントのすべての判断に監査証跡が必要な理由</h1><p class="meta">2026年7月20日 · 6分で読めます · AgentC編集部 · <a href="#faq">よくある質問</a></p></div>
+<div class="wrap" style="max-width:1000px"><figure class="cover" style="margin:0 0 40px"><img src="../../../assets/img/a09.webp" alt="拡大鏡の下で、バイオレットのエージェントの球体が残した光る足跡。一つひとつがその出どころとつながっている" width="1536" height="1024" fetchpriority="high"></figure></div>
+<div class="wrap narrow prose"><p class="answer">AIマーケティングエージェントの監査証跡とは、エージェントが行った重要な行動すべてと、その背後にあるエビデンスと理由、検討した代替案、そしてそれを承認またはレビューした人間の記録です。これがあれば、チームはどんな判断も事後に説明でき、逸脱を早期に見つけ、「なぜエージェントはそうしたのか？」というクライアントの問いに率直に答えられます。</p>
+<h2>人間にはないことも多いのに、なぜエージェントには監査証跡が必要なのか？</h2>
+<p>人間も痕跡は残します。メール、議事録、覚えている同僚。そして人間には尋ねることができます。エージェントは大量に、高速に、しばしば夜間に行動します。意図的な記録がなければ、なぜ午前3時に予算が動いたのか、なぜ特定のメッセージが特定のオーディエンスに届いたのかを誰も再構成できません。何か問題が起きたとき、答えは「AIがやった」になってしまいます。それはAgentCが決して受け入れない唯一の答えです。</p>
+<p>信頼の側面もあります。私たちの組織原則は、倫理的なテクノロジーには効率よりも人間性を優先する勇気が必要だ、というものです。透明性は、その勇気が取る最も実践的な形の一つです。自らの過程を示せるブランドは、示せないブランドよりも信頼しやすいものです。</p>
+<h2>エージェントの監査証跡には何を記録すべきか？</h2>
+<div class="checklist">
+<h3>有用な記録の最低限</h3>
+<ul>
+<li><strong>行動：</strong>エージェントが何をしたかを平易な言葉で。</li>
+<li><strong>時間と範囲：</strong>いつ、どのチャネル、キャンペーン、オーディエンスで。</li>
+<li><strong>きっかけ：</strong>疲弊のシグナルや新しいリサーチのクラスターなど、何が行動を促したか。</li>
+<li><strong>エビデンス：</strong>要約ではなく、根拠としたデータや投稿へのリンク。</li>
+<li><strong>代替案：</strong>他に何を検討し、なぜそれを退けたか。</li>
+<li><strong>権限：</strong>憲章に基づいて単独で行動したのか、承認を得たのか、その場合は誰の承認か。</li>
+<li><strong>取り消し：</strong>可能であれば、どう元に戻すか。</li>
+</ul>
+</div>
+<p>ほとんどのシステムが不十分なのは、エビデンスの項目です。「パフォーマンスが改善したので予算を移した」と書かれたログは、何もないよりわずかにましな程度です。具体的な指標の動き、リサーチであれば具体的な投稿にリンクしたログなら、確認できます。</p>
+<h2>リサーチの判断のエビデンスはどこから来るのか？</h2>
+<p>リサーチについては、私たちのエージェントは、AIのすべての結論をその背後にある投稿と照らし合わせて確認できるという考えに基づいて作られたAIオーディエンスリサーチ・プラットフォーム、SOMINの上で動いています。コンセプトタグや緊張は、それを裏付ける会話までたどれます。つまり、リサーチの監査証跡は後から再構成したものではなく、最初から備わっているものです。SOMINの<a href="https://somin.ai/somin-reporting/" rel="noopener">レポーティングツール</a>は、同じトレーサビリティをクライアント向けのレポートにも持ち込みます。</p>
+<p>同じ原則をリスニングの観点から見るなら、姉妹アプリの<a href="https://somonitor.ai/" rel="noopener">Somonitor</a>が、SOMINのコンセプトエンジンを常時稼働のブランドモニタリングに応用しています。そこでは、アラートの背後にある投稿を示せることが非常に重要です。</p>
+<h2>監査証跡を実際に読むのは誰か？</h2>
+<p>誰も読まなければ、それはただの保管コストです。私たちは3人の読み手を割り当てています。</p>
+<h3>指揮者が毎日</h3>
+<p>夜間の行動の短いダイジェストで、普段と違うものにはフラグが付いています。ほとんどの日は数分で済みます。</p>
+<h3>レビュアーが毎週</h3>
+<p>そのアカウントを担当していない同僚が、判断を無作為に抽出して確認します。新鮮な目は、担当ストラテジストが見慣れてしまった逸脱に気づきます。</p>
+<h3>クライアントが求めに応じて</h3>
+<p>どのクライアントも、どの判断についても尋ねて記録を受け取ることができます。<a href="../ai-optimisation-beyond-vanity-metrics/index.html">最適化エージェントについての記事</a>で述べたとおり、定期的なレポートにも、エージェントの行動と人間による判断の上書きを平易な言葉でまとめたものを含めています。</p>
+<blockquote>透明性とは、求められたときに作るレポートではありません。誰かに求められる前に築いておく習慣です。</blockquote>
+<h2>レビュアーはどんなパターンに注目すべきか？</h2>
+<ul>
+<li><strong>逸脱：</strong>エージェントの行動が、憲章の目的から徐々に離れていくこと。</li>
+<li><strong>集中：</strong>広告費やメッセージが、一つのオーディエンスや切り口に偏って積み上がること。</li>
+<li><strong>沈黙の上書き：</strong>何一つ却下しないレビュアー。</li>
+<li><strong>エビデンスの欠落：</strong>エビデンスへのリンクが弱い、または欠けている行動。</li>
+<li><strong>繰り返される取り消し：</strong>同じ種類の行動が何度も元に戻されること。これは憲章の変更が必要だという意味です。</li>
+</ul>
+<h2>監査証跡は規制への対応に役立つか？</h2>
+<p>役立ちますが、それだけで法令遵守のプログラムになるわけではありません。自動化された意思決定、広告基準、データ保護に関するルールは市場によって異なり、変化し続けています。エージェントが何をし、誰が承認したかの明確な記録があれば、規制当局、プラットフォーム、顧客からのどんな質問にも、はるかに答えやすくなります。具体的な義務については、現地の法律専門家の助言を受けてください。</p>
+<h2>ログに溺れずに監査証跡を始めるには？</h2>
+<ol>
+<li><a href="../governing-ai-marketing-agents/index.html">エージェント憲章</a>で定義した重要な行動だけを記録する。</li>
+<li>初日からエビデンスへのリンクを必須にする。後付けは大変です。</li>
+<li>日次ダイジェストは、データベースではなく忙しい人間に向けて書く。</li>
+<li>毎週無作為にサンプルをレビューし、見つかったことに基づいて行動する。</li>
+</ol>
+<p>AIリサーチを軸にクライアントの信頼を築こうとしているエージェンシーには、<a href="https://somin.ai/agencies-click2view-asia-case-study/" rel="noopener">Click2View Asiaの事例</a>が参考になります。</p>
+<h2>良い日次ダイジェストとはどんなものか？</h2><p>1画面に3つのセクション。1つ目は、エージェントが単独で行ったことを種類別にまとめ、通常の範囲を外れたものを強調したもの。2つ目は、判断待ちのものと期限。3つ目は、新しいオーディエンスの緊張や予想外のパフォーマンスの変化など、エージェントが意外だと感じたもの。各行は完全な記録にリンクしています。ダイジェストを読むのに10分以上かかるなら、報告が多すぎるか、エージェントが監督なしにやりすぎています。直すべきは読み手ではなく憲章です。</p><p>最後に、保存期間について一言。監査記録は、少なくともそれが記録するキャンペーンについて質問が生じうる間は保管してください。ほとんどのブランドにとって、それは出稿期間をはるかに超えます。苦情、プラットフォームの審査、社内の振り返りは、数か月後にやって来ることが多いものです。削除された証跡はそのとき何の役にも立たず、記憶から理由を組み立て直しても、満足する人はまずいません。</p><p>証跡は、仕事に上乗せされる負担ではなく、仕事の一部として扱いましょう。監査証跡を負担に感じるチームは、たいていすべてを記録して何も読んでいません。価値を感じているチームは、記録を減らし、それをきちんと読んでいます。</p><p>エージェントが自らを説明できるようにしたいなら、ask@agentc.marketing までエージェントへのブリーフをお送りください。</p>
+<section id="faq" style="padding:40px 0 0"><h2>よくある質問</h2><details><summary>AIエージェントの監査証跡とは何ですか？</summary><p>AIエージェントが行う重要な行動それぞれの記録です。エビデンス、理由、検討した代替案、承認した人間、元に戻す方法を含みます。</p></details><details><summary>AIエージェントのログは誰がレビューすべきですか？</summary><p>責任を持つストラテジストが毎日、独立した同僚が毎週無作為抽出で、そしてクライアントが判断について尋ねたときにいつでも。</p></details><details><summary>監査証跡があればAI規制への対応は十分ですか？</summary><p>大いに役立ちますが、完全な法令遵守プログラムではありません。要件は市場によって異なるため、適切な記録の保持とあわせて現地の法律専門家の助言を受けてください。</p></details></section>
+<div class="cta-box"><h2>エージェントにブリーフを渡す</h2><p>AgentCはエージェント型マーケティングエージェンシーです。エージェントが24時間リサーチ、制作、最適化を行い、ストラテジストが何が重要か、何がブランドに合うか、何を決して自動化すべきでないかを決めます。</p><a class="btn" href="mailto:ask@agentc.marketing?subject=Brief%20for%20AgentC%20%28re%3A%20Why%20every%20AI%20agent%20decision%20needs%20an%20audit%20trail%29">ask@agentc.marketing にメールする →</a></div>
+</div></article>
+<section class="alt"><div class="wrap"><h2>続けて読む</h2><div class="grid g3" style="margin-top:28px"><a class="post-card" href="../what-is-agentic-marketing/index.html"><img src="../../../assets/img/a01-640.webp" alt="深いインクパープルを背景に、光るバイオレットのエージェントの球体のオーケストラを指揮する人間の指揮者" width="640" height="427" loading="lazy"><div class="b"><span class="tag">エージェント型マーケティング</span><h3>エージェント型マーケティングとは何か、そしてエージェントを指揮するのは誰か？</h3><p>エージェント型マーケティングは、AIエージェントを使ってリサーチ、クリエイティブ、最適化のループを回します。その仕組みと、それでも人間の指揮者が判断を下す理由を解説します。</p><div class="meta" style="margin-top:12px">2026年10月5日 · 6分で読めます</div></div></a><a class="post-card" href="../human-in-the-loop-marketing/index.html"><img src="../../../assets/img/a02-640.webp" alt="光るバイオレットのエージェントの球体が描くループを、人間の手が完成させている。人間によるチェックポイントの象徴" width="640" height="427" loading="lazy"><div class="b"><span class="tag">ヒューマン・イン・ザ・ループ</span><h3>ヒューマン・イン・ザ・ループのマーケティング：チェックポイントをどこに置くか</h3><p>ヒューマン・イン・ザ・ループのマーケティングは、チェックポイントが正しい場所にあって初めて機能します。エージェントが単独で決めることと、人を待つことを整理した実践的なマップです。</p><div class="meta" style="margin-top:12px">2026年9月21日 · 6分で読めます</div></div></a><a class="post-card" href="../governing-ai-marketing-agents/index.html"><img src="../../../assets/img/a03-640.webp" alt="半透明のガードレールに沿って、光るレーンを進むバイオレットのエージェントの球体。指揮台から見守られている" width="640" height="427" loading="lazy"><div class="b"><span class="tag">ガバナンス</span><h3>AIマーケティングエージェントをどう統治するか：1ページの憲章</h3><p>AIマーケティングエージェントには、より多くの自律性より先に、文書化されたルールが必要です。範囲、データ、承認、説明責任を網羅する1ページのガバナンス憲章。</p><div class="meta" style="margin-top:12px">2026年9月7日 · 6分で読めます</div></div></a></div></div></section>
+</main>
+<footer class="site"><div class="wrap">
+<div class="fgrid">
+<div><div style="margin-bottom:18px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 40" width="200" height="40" role="img" aria-label="AgentCのロゴ"><path d="M20 2l15.6 9v18L20 38 4.4 29V11z" fill="#7C3AED"/><path d="M26.5 14.5a8 8 0 1 0 0 11" fill="none" stroke="#fff" stroke-width="3.6" stroke-linecap="round"/><circle cx="27" cy="20" r="2.3" fill="#fff"/><text x="50" y="28" font-family="'Inter Tight', system-ui, sans-serif" font-size="22" font-weight="800" letter-spacing="-0.6"><tspan fill="#FFFFFF">Agent</tspan><tspan fill="#A78BFA">C</tspan></text></svg></div><p style="max-width:30em">AIエージェントがすべてのパートを演奏し、人間のストラテジストが指揮するエージェント型マーケティングエージェンシー。</p>
+<p class="partner">テクノロジーパートナー <a href="https://somin.ai/" class="somin" style="text-decoration:none"><b>SO</b><i>MIN</i></a></p>
+<p><a class="btn" href="mailto:ask@agentc.marketing?subject=Brief%20for%20AgentC">エージェントにブリーフを渡す</a></p>
+<p>メール：<a href="mailto:ask@agentc.marketing">ask@agentc.marketing</a></p></div>
+<div><h4>AgentC</h4><ul style="list-style:none;padding:0;margin:0;line-height:2.1"><li><a href="../../index.html#services">私たちの活動</a></li><li><a href="../index.html">インサイト</a></li><li><a href="../../index.html#about">概要</a></li><li><a href="../../index.html#faq">よくある質問</a></li><li><a href="../../../brand/index.html">ブランドガイドライン</a></li><li><a href="https://agentc.marketing/feed.xml">RSS</a></li></ul></div>
+<div><h4>Powered by SOMIN</h4><ul style="list-style:none;padding:0;margin:0;line-height:2.1"><li><a href="https://somin.ai/" rel="noopener">somin.ai</a></li><li><a href="https://somin.ai/cases-ai-marketing-strategy/" rel="noopener">導入事例</a></li><li><a href="https://somin.ai/somin-for-brands/" rel="noopener">ブランド向け</a></li><li><a href="https://somin.ai/somin-for-agencies/" rel="noopener">エージェンシー向け</a></li></ul></div>
+</div>
+<h4>ネットワーク</h4>
+<nav class="network" aria-label="姉妹企業"><a href="https://mondays.marketing/" rel="noopener">Marketing Mondays<span>毎週月曜日、実際のシグナルをひとつ読み解く</span></a><a href="https://somonitor.ai/" rel="noopener">Somonitor<span>検証できる常時リスニング</span></a><a href="https://fmedia.marketing/" rel="noopener">FMedia<span>有料トラフィックを利益で測る</span></a><a href="https://gpt3.marketing/" rel="noopener">GPT3 Marketing<span>6年にわたるAIコンテンツの技</span></a><a href="https://gpt5.marketing/" rel="noopener">GPT5 Marketing<span>推論モデルのために再設計されたマーケティング</span></a><a href="https://mindfuse.sg/" rel="noopener">Mindfuse<span>東南アジアの消費者心理と文化を読み解く</span></a><a href="https://snmrush.com/" rel="noopener">SNMRush<span>Search、Neural answers、Mentions。ひとつの勢いで。</span></a></nav>
+<p style="margin-top:40px;font-size:13px">© 2026 AgentC · agentc.marketing · シンガポール。 </p>
+</div></footer>
+</body></html>

@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>最適化エージェントと虚栄の指標の罠 | AgentC</title>
+<meta name="description" content="最適化エージェントは、指示されたものを何でも追いかけます。見かけのROASではなく真の利益に向けさせる方法と、人間が判断を覆すべきタイミング。">
+<link rel="canonical" href="https://agentc.marketing/ja/blog/ai-optimisation-beyond-vanity-metrics/">
+<link rel="alternate" hreflang="en-SG" href="https://agentc.marketing/blog/ai-optimisation-beyond-vanity-metrics/">
+<link rel="alternate" hreflang="zh-Hans" href="https://agentc.marketing/zh-hans/blog/ai-optimisation-beyond-vanity-metrics/">
+<link rel="alternate" hreflang="zh-Hant" href="https://agentc.marketing/zh-hant/blog/ai-optimisation-beyond-vanity-metrics/">
+<link rel="alternate" hreflang="ja" href="https://agentc.marketing/ja/blog/ai-optimisation-beyond-vanity-metrics/">
+<link rel="alternate" hreflang="x-default" href="https://agentc.marketing/blog/ai-optimisation-beyond-vanity-metrics/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#120B24">
+<meta property="og:site_name" content="AgentC">
+<meta property="og:type" content="website">
+<meta property="og:title" content="最適化エージェントと虚栄の指標の罠">
+<meta property="og:description" content="最適化エージェントは目標を達成するために入札、予算、クリエイティブを継続的に調整するため、すべては目標次第です。">
+<meta property="og:url" content="https://agentc.marketing/ja/blog/ai-optimisation-beyond-vanity-metrics/">
+<meta property="og:image" content="https://agentc.marketing/assets/img/og/ai-optimisation-beyond-vanity-metrics.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:type" content="image/jpeg"><meta property="og:image:alt" content="最適化エージェントと虚栄の指標の罠、AgentC">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:locale:alternate" content="en_SG">
+<meta property="og:locale:alternate" content="zh_CN">
+<meta property="og:locale:alternate" content="zh_TW">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="最適化エージェントと虚栄の指標の罠">
+<meta name="twitter:description" content="最適化エージェントは目標を達成するために入札、予算、クリエイティブを継続的に調整するため、すべては目標次第です。">
+<meta name="twitter:image" content="https://agentc.marketing/assets/img/og/ai-optimisation-beyond-vanity-metrics.jpg">
+<meta name="twitter:image:alt" content="最適化エージェントと虚栄の指標の罠、AgentC">
+<meta name="application-name" content="AgentC"><meta name="apple-mobile-web-app-title" content="AgentC">
+<meta property="article:author" content="AgentC"><meta property="article:published_time" content="2026-07-27"><meta property="article:section" content="最適化"><meta name="keywords" content="AI campaign optimisation, vanity metrics, true profit ROAS, optimisation agents, budget allocation">
+<link rel="icon" href="../../../favicon.ico" sizes="48x48">
+<link rel="icon" href="../../../favicon.svg" type="image/svg+xml">
+<link rel="icon" href="../../../assets/img/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="../../../assets/img/icon-180.png">
+<link rel="manifest" href="../../../site.webmanifest">
+<link rel="alternate" type="application/rss+xml" title="AgentCブログ" href="https://agentc.marketing/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700;800&family=Inter:wght@400;500;600&family=Noto+Sans+JP:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="../../../assets/site.css">
+<style id="i18n-font">:root{--fh:'Inter Tight','Noto Sans JP',system-ui,sans-serif;--fb:'Inter','Noto Sans JP',system-ui,sans-serif}</style>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZBJRWQEFZV"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-ZBJRWQEFZV');document.addEventListener('click',function(e){var a=e.target.closest('a[href]');if(!a)return;var h=a.getAttribute('href')||'';if(/^mailto:/.test(h))return gtag('event','generate_lead',{method:'email',link_text:(a.textContent||'').trim().slice(0,80)});var m=h.match(/^https?:\/\/(?:www\.)?((?:cloud\.|share\.)?somin\.ai)(\/[^?#]*)?/);if(m)gtag('event','somin_click',{destination:m[1],path:(m[2]||'/').slice(0,80),link_text:(a.textContent||'').trim().slice(0,80)});});document.addEventListener('submit',function(e){var f=e.target;if(f&&f.tagName==='FORM')gtag('event','generate_lead',{method:'form',form_class:String(f.className||'').slice(0,40)});},true);</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","headline":"最適化エージェントと虚栄の指標の罠","description":"最適化エージェントは、指示されたものを何でも追いかけます。見かけのROASではなく真の利益に向けさせる方法と、人間が判断を覆すべきタイミング。","datePublished":"2026-07-27","dateModified":"2026-07-27","image":["https://agentc.marketing/assets/img/og/ai-optimisation-beyond-vanity-metrics.jpg","https://agentc.marketing/assets/img/a08.webp"],"url":"https://agentc.marketing/ja/blog/ai-optimisation-beyond-vanity-metrics/","mainEntityOfPage":"https://agentc.marketing/ja/blog/ai-optimisation-beyond-vanity-metrics/","keywords":"AI campaign optimisation, vanity metrics, true profit ROAS, optimisation agents, budget allocation","articleSection":"最適化","inLanguage":"ja","wordCount":915,"author":{"@type":"Organization","name":"AgentC editorial team","url":"https://agentc.marketing/"},"publisher":{"@id":"https://agentc.marketing/#org"},"mentions":[{"@type":"Organization","name":"SOMIN","url":"https://somin.ai/"}],"speakable":{"@type":"SpeakableSpecification","cssSelector":[".answer"]}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"AgentC","item":"https://agentc.marketing/ja/"},{"@type":"ListItem","position":2,"name":"ブログ","item":"https://agentc.marketing/ja/blog/"},{"@type":"ListItem","position":3,"name":"最適化エージェントと虚栄の指標の罠","item":"https://agentc.marketing/ja/blog/ai-optimisation-beyond-vanity-metrics/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"AI最適化エージェントは何を目標にすべきですか？","acceptedAnswer":{"@type":"Answer","text":"確実に測定できる中で実際のビジネス価値に最も近い指標です。理想的には、売上ベースのROASだけでなく、コスト、値引き、返品を差し引いた貢献利益です。"}},{"@type":"Question","name":"最適化エージェントは承認なしに予算を変更できますか？","acceptedAnswer":{"@type":"Answer","text":"AgentCでは、実績のある広告セット間で広告費を移すなど、合意した上限の範囲内で元に戻せる操作に限られます。戦略的な変更は人間を待ちます。"}},{"@type":"Question","name":"虚栄の指標はなぜエージェントを誤らせるのですか？","acceptedAnswer":{"@type":"Answer","text":"エージェントは与えられた目標を何であれ追いかけます。その目標が返品、手数料、値引きの深さを無視していれば、エージェントは好調に見えても利益をほとんど生まないキャンペーンを拡大してしまいます。"}}]},{"@type":"Organization","@id":"https://agentc.marketing/#org","name":"AgentC","url":"https://agentc.marketing/","logo":"https://agentc.marketing/brand/logo.svg","email":"ask@agentc.marketing","description":"AgentC is an agentic-AI marketing agency. AI agents run continuous research, creative and optimisation loops, while human strategists own judgement, taste and accountability. The agents run on SOMIN, an AI audience-research platform and AgentC's technology partner, so every recommendation traces back to real audience conversations. The C stands for the conductor: the human who decides what the orchestra plays.","slogan":"Agents play. Humans conduct.","areaServed":"Singapore and Asia-Pacific","address":{"@type":"PostalAddress","addressLocality":"Singapore","addressCountry":"SG"},"contactPoint":{"@type":"ContactPoint","email":"ask@agentc.marketing","contactType":"sales"},"knowsAbout":["AI accountability","AI agent checkpoints","AI agent governance","AI agents marketing roles","AI approval workflow","AI audience research","AI audit trail","AI campaign optimisation","AI creative","AI customer experience","AI generated ads","AI governance","AI marketing agency","AI marketing agents","AI marketing brief","AI marketing policy","SOMIN","agent charter","agent prompt template","agent transparency","agentic marketing","agentic organisation","agentic workflow","audience tensions","automated marketing ethics"],"memberOf":{"@type":"Organization","name":"SOMIN partner network","url":"https://somin.ai/"},"brand":{"@type":"Brand","name":"AgentC"}}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">コンテンツへスキップ</a>
+<header class="site"><div class="wrap">
+<a class="logo" href="../../index.html" aria-label="AgentCホーム"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 40" width="200" height="40" role="img" aria-label="AgentCのロゴ"><path d="M20 2l15.6 9v18L20 38 4.4 29V11z" fill="#7C3AED"/><path d="M26.5 14.5a8 8 0 1 0 0 11" fill="none" stroke="#fff" stroke-width="3.6" stroke-linecap="round"/><circle cx="27" cy="20" r="2.3" fill="#fff"/><text x="50" y="28" font-family="'Inter Tight', system-ui, sans-serif" font-size="22" font-weight="800" letter-spacing="-0.6"><tspan fill="#120B24">Agent</tspan><tspan fill="#7C3AED">C</tspan></text></svg></a>
+<nav aria-label="メイン"><a href="../../index.html#work">実績</a><a href="../../index.html#services">私たちの活動</a><a href="../index.html">インサイト</a><a href="../../index.html#faq">よくある質問</a><a href="../../../brand/index.html">ブランド</a><a class="btn" href="mailto:ask@agentc.marketing?subject=Brief%20for%20AgentC">エージェントにブリーフを渡す</a><!--i18n:langsw--><details class="langsw" translate="no"><summary aria-label="言語: 日本語"><span>日本語</span></summary><ul><li><a href="../../../blog/ai-optimisation-beyond-vanity-metrics/index.html" hreflang="en-SG" lang="en-SG">English</a></li><li><a href="../../../zh-hans/blog/ai-optimisation-beyond-vanity-metrics/index.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a></li><li><a href="../../../zh-hant/blog/ai-optimisation-beyond-vanity-metrics/index.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a></li><li><a href="index.html" hreflang="ja" lang="ja" aria-current="page">日本語</a></li></ul></details><script>document.addEventListener('click',function(e){var a=e.target.closest('.langsw a[hreflang]');if(a&&typeof gtag==='function')gtag('event','language_switch',{language_from:document.documentElement.lang,language_to:a.getAttribute('hreflang'),page_path:location.pathname});var d=document.querySelector('.langsw[open]');if(d&&!d.contains(e.target))d.removeAttribute('open');});</script><!--/i18n:langsw--></nav>
+</div></header>
+<main id="main">
+<article class="post"><div class="wrap narrow head"><nav class="crumbs" aria-label="パンくずリスト"><a href="../../index.html">AgentC</a> / <a href="../index.html">ブログ</a> / 最適化</nav>
+<h1 style="margin-top:18px">最適化エージェントと虚栄の指標の罠</h1><p class="meta">2026年7月27日 · 6分で読めます · AgentC編集部 · <a href="#faq">よくある質問</a></p></div>
+<div class="wrap" style="max-width:1000px"><figure class="cover" style="margin:0 0 40px"><img src="../../../assets/img/a08.webp" alt="光るダイヤルと波形を調整するエージェントの球体と、背景でひび割れる中身のない泡" width="1536" height="1024" fetchpriority="high"></figure></div>
+<div class="wrap narrow prose"><p class="answer">最適化エージェントは目標を達成するために入札、予算、クリエイティブを継続的に調整するため、すべては目標次第です。見出し上のROASやクリック率といった虚栄の指標をエージェントに目指させれば、それを達成してくれますが、多くの場合、本当の利益を犠牲にします。真の利益を目指させ、元に戻せる範囲の制限を設け、戦略を変える判断には人間を置いてください。</p>
+<h2>目標を誤ると、なぜ最適化エージェントは危険なのか？</h2>
+<p>容赦がないからです。400%のROASを追う人間のメディアバイヤーなら、そのキャンペーンが大幅に値引きされた返品率の高い注文を生んでいることに気づくかもしれません。エージェントは、それらが重要だと教えられていない限り気づきません。与えられた数字で最も良く見えるキャンペーンを、喜んで拡大していきます。</p>
+<p>これは私たちのリスニングでおなじみの緊張です。ブランドは返品、手数料、真の利益を無視してROASやCPAに最適化し、エージェンシーは実態を伝えるのではなく見栄えを良くする指標で評価されます。エージェントは、この問題を別物にするのではなく、加速させるだけです。</p>
+<h2>最適化エージェントは何に向けて最適化すべきか？</h2>
+<p>実際のビジネス価値に最も近く、かつエージェントが学習できるほど確実かつ迅速に測定できるものです。優先順に挙げます。</p>
+<ol>
+<li>製品原価、値引き、返品、手数料を差し引いた<strong>貢献利益</strong>。</li>
+<li>返品データの到着が遅すぎる場合は、注文の<strong>粗利益</strong>。</li>
+<li>リード獲得の場合は、品質フィルターをかけた<strong>適格コンバージョン</strong>。</li>
+<li>値引きの深さとオーディエンス構成にガードレールを設けた場合に限り、<strong>売上ベースのROAS</strong>。</li>
+</ol>
+<p>姉妹アプリの<a href="https://fmedia.marketing/" rel="noopener">FMedia</a>は、MetaとGoogleの真の利益ベースのROASを軸に作られています。現在エージェントがプラットフォーム報告の売上で最適化しているなら、その考え方は一読の価値があります。</p>
+<div class="definitions">
+<h3>ここで重要な用語</h3>
+<ul>
+<li><strong>虚栄の指標：</strong>見栄えは良いが、ビジネス価値を確実には反映しない数字。</li>
+<li><strong>真の利益ベースのROAS：</strong>売上ではなく、コストを差し引いた利益で計算する広告費用対効果。</li>
+<li><strong>クリエイティブの疲弊：</strong>オーディエンスが同じクリエイティブを繰り返し目にすることで、パフォーマンスが低下すること。</li>
+<li><strong>ガードレール：</strong>エージェントが承認なしに越えられない、厳格な上限。</li>
+</ul>
+</div>
+<h2>エージェントが単独で行える最適化の判断はどれか？</h2>
+<p>私たちの<a href="../human-in-the-loop-marketing/index.html">チェックポイントマップ</a>に基づき、元に戻せる機械的な操作については、エージェントが単独で行うことを認めています。</p>
+<ul>
+<li>明らかに疲弊しているクリエイティブを一時停止すること。</li>
+<li>合意した上限の範囲内で、実績のある広告セット間で予算を移すこと。</li>
+<li>定められた範囲内で入札を調整すること。</li>
+</ul>
+<p>そして、戦略を変えるものにはすべて人間を置きます。</p>
+<ul>
+<li>新しいオーディエンスへの展開。</li>
+<li>コンバージョンは遅くても長期的に重要かもしれないオーディエンスを手放すこと。</li>
+<li>オファーを変えたり、値引きを深くしたりすること。</li>
+<li>上限を超えてチャネル間で予算を移すこと。</li>
+</ul>
+<h2>人間はいつ最適化エージェントの判断を覆すべきか？</h2>
+<p>エージェントが自らの指標では正しくても、ビジネスとしては間違っているときです。よくある例は次のとおりです。</p>
+<div class="checklist">
+<h3>判断を覆すためのチェックリスト</h3>
+<ul>
+<li>勝ちパターンのバリエーションが、恐怖、コンプレックス、偽りの緊急性に頼っている。</li>
+<li>パフォーマンスが、ブランドが離れようとしているオーディエンスに集中している。</li>
+<li>成果が、事業として持続できない深さの値引きに依存している。</li>
+<li>ブランド構築の価値があるにもかかわらず、コンバージョンの遅いオーディエンスへの配分が絞られている。</li>
+<li>エージェントが、実際の行動ではなく測定上の癖を利用している。</li>
+</ul>
+</div>
+<blockquote>エージェントは何がうまくいっているかを教えてくれます。それを続けるべきかどうかを教えられるのは、人間だけです。</blockquote>
+<h2>オーディエンスリサーチは、最適化をどう賢くするのか？</h2>
+<p>最適化エージェントは、広告費を投じた後に起きたことから学びます。リサーチエージェントは、その前にオーディエンスが語っていることから学びます。両者を組み合わせれば、最適化のループは、予算を燃やして緊張を探し当てるのではなく、すでに実際の緊張に応えているクリエイティブを検証できます。私たちのリサーチは、AIオーディエンスリサーチ・プラットフォームのSOMINの上で動いています。その<a href="https://somin.ai/somin-paid-media/" rel="noopener">ペイドメディア・インテリジェンス</a>は、オーディエンスインサイトとキャンペーンのパフォーマンスを結びつけます。</p>
+<p>測定について外部の視点を求めるエージェンシーには、オーディエンスインサイトと厳密なアナリティクスの組み合わせについて、<a href="https://somin.ai/agencies-analytic-partners-case-study/" rel="noopener">Analytic Partnersの事例</a>が参考になります。</p>
+<h2>結果はクライアントにどう報告すべきか？</h2>
+<p>正直に、平易な言葉で。私たちの指揮者は毎週、エージェントが何をなぜ変えたのか、そして人間が何を覆したのかを報告します。うまくいかなかったことも含めます。虚栄の指標を超えてエージェンシーのパフォーマンスを評価するクライアントには、ダッシュボードだけでなく判断そのものを見る権利があります。<a href="../audit-trail-for-ai-agents/index.html">監査証跡についての記事</a>で論じたとおり、すべての変更はたどれるものであるべきです。</p>
+<h2>最適化のガードレールはどうあるべきか？</h2><p>ガードレールが最もよく機能するのは、数値で具体的に定められ、ローンチ前に憲章に書き込まれているときです。私たちがよく使う例は次のとおりです。</p><ul><li>エージェントが承認なしに動かせる予算の1日あたりの上限。</li><li>どのバリエーションでも打ち出せる値引きの最大幅。</li><li>短期的な効率にかかわらず、ブランドが育てているオーディエンスのために確保する広告費の最低比率。</li><li>どのオーディエンスも、疲弊するほど同じクリエイティブを目にしないようにするフリークエンシーキャップ。</li><li>パフォーマンスが設定した速度を超えて変化したときは、行動ではなくアラートを出すこと。急激な変動は測定上の問題であることが多いからです。</li></ul><p>ガードレールは毎月見直すべきです。エージェントが同じガードレールに何度もぶつかるなら、間違っているのはガードレールか戦略のどちらかで、どちらなのかは人間が判断する必要があります。</p><h2>クリエイティブの疲弊についてはどうか？</h2><p>疲弊の検知は、最適化エージェントにとって最も役立つ仕事の一つです。人が見張るには退屈で、見落としやすいからです。エージェントは反応の低下を早期に見つけ、承認済みのプールの中でクリエイティブを入れ替えられます。人間の仕事は、そのプールが、疲弊したものの小さなバリエーションではなく、本当に新しいアイデアで補充されるようにすることです。</p><p>最後に、エージェントが勝者を宣言する前にテストをどれだけの期間回すべきかを、事前に合意しておきましょう。エージェントは、特に目標指標のノイズが大きいとき、わずかなデータで喜んで早々に結果を判定します。憲章に書き込んだ最低学習期間があれば、昨日の幸運な連勝を明日の予算に拡大してしまうことを防げますし、人間のレビュアーにも公正な判断の根拠が生まれます。</p><p>いまエージェントが、どうも信頼しきれない数字を追いかけているなら、ask@agentc.marketing までエージェントへのブリーフをお送りください。向け直すお手伝いをします。</p>
+<section id="faq" style="padding:40px 0 0"><h2>よくある質問</h2><details><summary>AI最適化エージェントは何を目標にすべきですか？</summary><p>確実に測定できる中で実際のビジネス価値に最も近い指標です。理想的には、売上ベースのROASだけでなく、コスト、値引き、返品を差し引いた貢献利益です。</p></details><details><summary>最適化エージェントは承認なしに予算を変更できますか？</summary><p>AgentCでは、実績のある広告セット間で広告費を移すなど、合意した上限の範囲内で元に戻せる操作に限られます。戦略的な変更は人間を待ちます。</p></details><details><summary>虚栄の指標はなぜエージェントを誤らせるのですか？</summary><p>エージェントは与えられた目標を何であれ追いかけます。その目標が返品、手数料、値引きの深さを無視していれば、エージェントは好調に見えても利益をほとんど生まないキャンペーンを拡大してしまいます。</p></details></section>
+<div class="cta-box"><h2>エージェントにブリーフを渡す</h2><p>AgentCはエージェント型マーケティングエージェンシーです。エージェントが24時間リサーチ、制作、最適化を行い、ストラテジストが何が重要か、何がブランドに合うか、何を決して自動化すべきでないかを決めます。</p><a class="btn" href="mailto:ask@agentc.marketing?subject=Brief%20for%20AgentC%20%28re%3A%20Optimisation%20agents%20and%20the%20vanity%20metric%20trap%29">ask@agentc.marketing にメールする →</a></div>
+</div></article>
+<section class="alt"><div class="wrap"><h2>続けて読む</h2><div class="grid g3" style="margin-top:28px"><a class="post-card" href="../ai-creative-needs-a-human-edit/index.html"><img src="../../../assets/img/a07-640.webp" alt="多くの抽象的なクリエイティブのカードを扇状に広げるエージェントの球体と、光る1枚を選び取る人間の手" width="640" height="427" loading="lazy"><div class="b"><span class="tag">クリエイティブ</span><h3>AIクリエイティブに人の編集が必要な理由と、何を削るべきか</h3><p>AIエージェントによってクリエイティブの選択肢はあふれ、センスが希少なスキルになります。エージェントが作ったクリエイティブを選び、形づくるための実践的な編集ルーティン。</p><div class="meta" style="margin-top:12px">2026年8月3日 · 6分で読めます</div></div></a><a class="post-card" href="../audit-trail-for-ai-agents/index.html"><img src="../../../assets/img/a09-640.webp" alt="拡大鏡の下で、バイオレットのエージェントの球体が残した光る足跡。一つひとつがその出どころとつながっている" width="640" height="427" loading="lazy"><div class="b"><span class="tag">ガバナンス</span><h3>AIエージェントのすべての判断に監査証跡が必要な理由</h3><p>マーケティングエージェントが何をなぜ行ったかを説明できなければ、それを擁護することはできません。役に立つエージェントの監査証跡が何を記録し、誰がそれを読むのか。</p><div class="meta" style="margin-top:12px">2026年7月20日 · 6分で読めます</div></div></a><a class="post-card" href="../how-to-brief-ai-agents/index.html"><img src="../../../assets/img/a10-640.webp" alt="注意深く集まったバイオレットのエージェントの球体の輪に、光る白紙の折りたたまれた形を手渡すストラテジスト" width="640" height="427" loading="lazy"><div class="b"><span class="tag">ハウツー</span><h3>AIエージェントへのブリーフの書き方：指揮者のためのブリーフテンプレート</h3><p>良いエージェントブリーフは、タスクだけでなく目的、境界線、センスを定めます。AIマーケティングエージェントにブリーフを渡すための実践的なテンプレートと具体例。</p><div class="meta" style="margin-top:12px">2026年7月6日 · 6分で読めます</div></div></a></div></div></section>
+</main>
+<footer class="site"><div class="wrap">
+<div class="fgrid">
+<div><div style="margin-bottom:18px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 40" width="200" height="40" role="img" aria-label="AgentCのロゴ"><path d="M20 2l15.6 9v18L20 38 4.4 29V11z" fill="#7C3AED"/><path d="M26.5 14.5a8 8 0 1 0 0 11" fill="none" stroke="#fff" stroke-width="3.6" stroke-linecap="round"/><circle cx="27" cy="20" r="2.3" fill="#fff"/><text x="50" y="28" font-family="'Inter Tight', system-ui, sans-serif" font-size="22" font-weight="800" letter-spacing="-0.6"><tspan fill="#FFFFFF">Agent</tspan><tspan fill="#A78BFA">C</tspan></text></svg></div><p style="max-width:30em">AIエージェントがすべてのパートを演奏し、人間のストラテジストが指揮するエージェント型マーケティングエージェンシー。</p>
+<p class="partner">テクノロジーパートナー <a href="https://somin.ai/" class="somin" style="text-decoration:none"><b>SO</b><i>MIN</i></a></p>
+<p><a class="btn" href="mailto:ask@agentc.marketing?subject=Brief%20for%20AgentC">エージェントにブリーフを渡す</a></p>
+<p>メール：<a href="mailto:ask@agentc.marketing">ask@agentc.marketing</a></p></div>
+<div><h4>AgentC</h4><ul style="list-style:none;padding:0;margin:0;line-height:2.1"><li><a href="../../index.html#services">私たちの活動</a></li><li><a href="../index.html">インサイト</a></li><li><a href="../../index.html#about">概要</a></li><li><a href="../../index.html#faq">よくある質問</a></li><li><a href="../../../brand/index.html">ブランドガイドライン</a></li><li><a href="https://agentc.marketing/feed.xml">RSS</a></li></ul></div>
+<div><h4>Powered by SOMIN</h4><ul style="list-style:none;padding:0;margin:0;line-height:2.1"><li><a href="https://somin.ai/" rel="noopener">somin.ai</a></li><li><a href="https://somin.ai/cases-ai-marketing-strategy/" rel="noopener">導入事例</a></li><li><a href="https://somin.ai/somin-for-brands/" rel="noopener">ブランド向け</a></li><li><a href="https://somin.ai/somin-for-agencies/" rel="noopener">エージェンシー向け</a></li></ul></div>
+</div>
+<h4>ネットワーク</h4>
+<nav class="network" aria-label="姉妹企業"><a href="https://mondays.marketing/" rel="noopener">Marketing Mondays<span>毎週月曜日、実際のシグナルをひとつ読み解く</span></a><a href="https://somonitor.ai/" rel="noopener">Somonitor<span>検証できる常時リスニング</span></a><a href="https://fmedia.marketing/" rel="noopener">FMedia<span>有料トラフィックを利益で測る</span></a><a href="https://gpt3.marketing/" rel="noopener">GPT3 Marketing<span>6年にわたるAIコンテンツの技</span></a><a href="https://gpt5.marketing/" rel="noopener">GPT5 Marketing<span>推論モデルのために再設計されたマーケティング</span></a><a href="https://mindfuse.sg/" rel="noopener">Mindfuse<span>東南アジアの消費者心理と文化を読み解く</span></a><a href="https://snmrush.com/" rel="noopener">SNMRush<span>Search、Neural answers、Mentions。ひとつの勢いで。</span></a></nav>
+<p style="margin-top:40px;font-size:13px">© 2026 AgentC · agentc.marketing · シンガポール。 </p>
+</div></footer>
+</body></html>
