@@ -44,6 +44,7 @@
 - [Bahasa Melayu](https://agentc.marketing/ms/) · [blog](https://agentc.marketing/ms/blog/) (10 articles translated)
 - [हिन्दी](https://agentc.marketing/hi/) · [blog](https://agentc.marketing/hi/blog/) (10 articles translated)
 - [Filipino](https://agentc.marketing/fil/) · [blog](https://agentc.marketing/fil/blog/) (10 articles translated)
+- [Español](https://agentc.marketing/es/) · [blog](https://agentc.marketing/es/blog/) (10 articles translated)
 
 ## FAQ
 - **What does AgentC actually do?** AgentC is a marketing agency where AI agents run the repetitive loops of research, creative production and campaign optimisation, and human strategists make the decisions. You get continuous output and monitoring from the agents, and a named strategist who owns judgement, brand fit and accountability for every material call.
