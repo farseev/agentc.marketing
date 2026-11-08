@@ -32,6 +32,10 @@
 - [Why every AI agent decision needs an audit trail](https://agentc.marketing/blog/audit-trail-for-ai-agents/): If you cannot explain what your marketing agents did and why, you cannot defend it. What a useful agent audit trail records, and who reads it.
 - [How to brief AI agents: a brief template for conductors](https://agentc.marketing/blog/how-to-brief-ai-agents/): A good agent brief sets purpose, boundaries and taste, not just tasks. A practical template for briefing AI marketing agents, with a worked example.
 
+## Other languages
+
+- [简体中文](https://agentc.marketing/zh-hans/) · [blog](https://agentc.marketing/zh-hans/blog/) (10 articles translated)
+
 ## FAQ
 - **What does AgentC actually do?** AgentC is a marketing agency where AI agents run the repetitive loops of research, creative production and campaign optimisation, and human strategists make the decisions. You get continuous output and monitoring from the agents, and a named strategist who owns judgement, brand fit and accountability for every material call.
 - **What does the C stand for?** The conductor. An orchestra can play brilliantly without the conductor touching an instrument, but someone has to decide the tempo, the interpretation and when to stop. At AgentC that person is a human strategist, and the agents are the orchestra.

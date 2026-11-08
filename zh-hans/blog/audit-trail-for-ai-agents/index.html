@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>为什么每一项 AI 智能体决策都需要审计追踪 | AgentC</title>
+<meta name="description" content="如果您无法解释营销智能体做了什么、为什么这么做，您就无法为其辩护。一份有用的智能体审计追踪应记录什么，以及由谁来阅读。">
+<link rel="canonical" href="https://agentc.marketing/zh-hans/blog/audit-trail-for-ai-agents/">
+<link rel="alternate" hreflang="en-SG" href="https://agentc.marketing/blog/audit-trail-for-ai-agents/">
+<link rel="alternate" hreflang="zh-Hans" href="https://agentc.marketing/zh-hans/blog/audit-trail-for-ai-agents/">
+<link rel="alternate" hreflang="x-default" href="https://agentc.marketing/blog/audit-trail-for-ai-agents/">
+<meta name="robots" content="index,follow,max-image-preview:large">
+<meta name="theme-color" content="#120B24">
+<meta property="og:site_name" content="AgentC">
+<meta property="og:type" content="website">
+<meta property="og:title" content="为什么每一项 AI 智能体决策都需要审计追踪">
+<meta property="og:description" content="如果您无法解释营销智能体做了什么、为什么这么做，您就无法为其辩护。一份有用的智能体审计追踪应记录什么，以及由谁来阅读。">
+<meta property="og:url" content="https://agentc.marketing/zh-hans/blog/audit-trail-for-ai-agents/">
+<meta property="og:image" content="https://agentc.marketing/assets/img/og/audit-trail-for-ai-agents.jpg">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:type" content="image/jpeg"><meta property="og:image:alt" content="为什么每一项 AI 智能体决策都需要审计追踪，AgentC">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:locale:alternate" content="en_SG">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="为什么每一项 AI 智能体决策都需要审计追踪">
+<meta name="twitter:description" content="如果您无法解释营销智能体做了什么、为什么这么做，您就无法为其辩护。一份有用的智能体审计追踪应记录什么，以及由谁来阅读。">
+<meta name="twitter:image" content="https://agentc.marketing/assets/img/og/audit-trail-for-ai-agents.jpg">
+<meta name="twitter:image:alt" content="为什么每一项 AI 智能体决策都需要审计追踪，AgentC">
+<meta name="application-name" content="AgentC"><meta name="apple-mobile-web-app-title" content="AgentC">
+<meta property="article:author" content="AgentC"><meta property="article:published_time" content="2026-07-20"><meta property="article:section" content="治理"><meta name="keywords" content="AI audit trail, agent transparency, explainable AI marketing, AI governance, marketing accountability">
+<link rel="icon" href="../../../favicon.ico" sizes="48x48">
+<link rel="icon" href="../../../favicon.svg" type="image/svg+xml">
+<link rel="icon" href="../../../assets/img/favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="../../../assets/img/icon-180.png">
+<link rel="manifest" href="../../../site.webmanifest">
+<link rel="alternate" type="application/rss+xml" title="AgentC 博客" href="https://agentc.marketing/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500;600;700;800&family=Inter:wght@400;500;600&family=Noto+Sans+SC:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="../../../assets/site.css">
+<style id="i18n-font">:root{--fh:'Inter Tight','Noto Sans SC',system-ui,sans-serif;--fb:'Inter','Noto Sans SC',system-ui,sans-serif}</style>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZBJRWQEFZV"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-ZBJRWQEFZV');document.addEventListener('click',function(e){var a=e.target.closest('a[href]');if(!a)return;var h=a.getAttribute('href')||'';if(/^mailto:/.test(h))return gtag('event','generate_lead',{method:'email',link_text:(a.textContent||'').trim().slice(0,80)});var m=h.match(/^https?:\/\/(?:www\.)?((?:cloud\.|share\.)?somin\.ai)(\/[^?#]*)?/);if(m)gtag('event','somin_click',{destination:m[1],path:(m[2]||'/').slice(0,80),link_text:(a.textContent||'').trim().slice(0,80)});});document.addEventListener('submit',function(e){var f=e.target;if(f&&f.tagName==='FORM')gtag('event','generate_lead',{method:'form',form_class:String(f.className||'').slice(0,40)});},true);</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"BlogPosting","headline":"为什么每一项 AI 智能体决策都需要审计追踪","description":"如果您无法解释营销智能体做了什么、为什么这么做，您就无法为其辩护。一份有用的智能体审计追踪应记录什么，以及由谁来阅读。","datePublished":"2026-07-20","dateModified":"2026-07-20","image":["https://agentc.marketing/assets/img/og/audit-trail-for-ai-agents.jpg","https://agentc.marketing/assets/img/a09.webp"],"url":"https://agentc.marketing/zh-hans/blog/audit-trail-for-ai-agents/","mainEntityOfPage":"https://agentc.marketing/zh-hans/blog/audit-trail-for-ai-agents/","keywords":"AI audit trail, agent transparency, explainable AI marketing, AI governance, marketing accountability","articleSection":"治理","inLanguage":"zh-Hans","wordCount":952,"author":{"@type":"Organization","name":"AgentC editorial team","url":"https://agentc.marketing/"},"publisher":{"@id":"https://agentc.marketing/#org"},"mentions":[{"@type":"Organization","name":"SOMIN","url":"https://somin.ai/"}],"speakable":{"@type":"SpeakableSpecification","cssSelector":[".answer"]}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"AgentC","item":"https://agentc.marketing/zh-hans/"},{"@type":"ListItem","position":2,"name":"博客","item":"https://agentc.marketing/zh-hans/blog/"},{"@type":"ListItem","position":3,"name":"为什么每一项 AI 智能体决策都需要审计追踪","item":"https://agentc.marketing/zh-hans/blog/audit-trail-for-ai-agents/"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"什么是 AI 智能体审计追踪？","acceptedAnswer":{"@type":"Answer","text":"一份记录 AI 智能体每一项重要操作的档案，包括证据、理由、考虑过的备选方案、批准人，以及如何撤回。"}},{"@type":"Question","name":"谁应该审核 AI 智能体日志？","acceptedAnswer":{"@type":"Answer","text":"负责的策略师每天审核，一位独立同事每周通过随机抽样审核，客户则可在任何时候就某项决策提出询问。"}},{"@type":"Question","name":"审计追踪足以应对 AI 监管吗？","acceptedAnswer":{"@type":"Answer","text":"它帮助很大，但并不是一套完整的合规计划。各市场的要求不同，因此在保持良好记录的同时，也请咨询当地法律意见。"}}]},{"@type":"Organization","@id":"https://agentc.marketing/#org","name":"AgentC","url":"https://agentc.marketing/","logo":"https://agentc.marketing/brand/logo.svg","email":"ask@agentc.marketing","description":"AgentC is an agentic-AI marketing agency. AI agents run continuous research, creative and optimisation loops, while human strategists own judgement, taste and accountability. The agents run on SOMIN, an AI audience-research platform and AgentC's technology partner, so every recommendation traces back to real audience conversations. The C stands for the conductor: the human who decides what the orchestra plays.","slogan":"Agents play. Humans conduct.","areaServed":"Singapore and Asia-Pacific","address":{"@type":"PostalAddress","addressLocality":"Singapore","addressCountry":"SG"},"contactPoint":{"@type":"ContactPoint","email":"ask@agentc.marketing","contactType":"sales"},"knowsAbout":["AI accountability","AI agent checkpoints","AI agent governance","AI agents marketing roles","AI approval workflow","AI audience research","AI audit trail","AI campaign optimisation","AI creative","AI customer experience","AI generated ads","AI governance","AI marketing agency","AI marketing agents","AI marketing brief","AI marketing policy","SOMIN","agent charter","agent prompt template","agent transparency","agentic marketing","agentic organisation","agentic workflow","audience tensions","automated marketing ethics"],"memberOf":{"@type":"Organization","name":"SOMIN partner network","url":"https://somin.ai/"},"brand":{"@type":"Brand","name":"AgentC"}}]}</script>
+</head>
+<body>
+<a class="skip" href="#main">跳至正文</a>
+<header class="site"><div class="wrap">
+<a class="logo" href="../../index.html" aria-label="AgentC 首页"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 40" width="200" height="40" role="img" aria-label="AgentC 标志"><path d="M20 2l15.6 9v18L20 38 4.4 29V11z" fill="#7C3AED"/><path d="M26.5 14.5a8 8 0 1 0 0 11" fill="none" stroke="#fff" stroke-width="3.6" stroke-linecap="round"/><circle cx="27" cy="20" r="2.3" fill="#fff"/><text x="50" y="28" font-family="'Inter Tight', system-ui, sans-serif" font-size="22" font-weight="800" letter-spacing="-0.6"><tspan fill="#120B24">Agent</tspan><tspan fill="#7C3AED">C</tspan></text></svg></a>
+<nav aria-label="主导航"><a href="../../index.html#work">案例</a><a href="../../index.html#services">我们做什么</a><a href="../index.html">洞察</a><a href="../../index.html#faq">常见问题</a><a href="../../../brand/index.html">品牌</a><a class="btn" href="mailto:ask@agentc.marketing?subject=Brief%20for%20AgentC">向智能体下达简报</a><!--i18n:langsw--><details class="langsw" translate="no"><summary aria-label="语言: 简体中文"><span>简中</span></summary><ul><li><a href="../../../blog/audit-trail-for-ai-agents/index.html" hreflang="en-SG" lang="en-SG">English</a></li><li><a href="index.html" hreflang="zh-Hans" lang="zh-Hans" aria-current="page">简体中文</a></li></ul></details><script>document.addEventListener('click',function(e){var a=e.target.closest('.langsw a[hreflang]');if(a&&typeof gtag==='function')gtag('event','language_switch',{language_from:document.documentElement.lang,language_to:a.getAttribute('hreflang'),page_path:location.pathname});var d=document.querySelector('.langsw[open]');if(d&&!d.contains(e.target))d.removeAttribute('open');});</script><!--/i18n:langsw--></nav>
+</div></header>
+<main id="main">
+<article class="post"><div class="wrap narrow head"><nav class="crumbs" aria-label="面包屑导航"><a href="../../index.html">AgentC</a> / <a href="../index.html">博客</a> / 治理</nav>
+<h1 style="margin-top:18px">为什么每一项 AI 智能体决策都需要审计追踪</h1><p class="meta">2026 年 7 月 20 日 · 阅读约 6 分钟 · AgentC 编辑团队 · <a href="#faq">常见问题</a></p></div>
+<div class="wrap" style="max-width:1000px"><figure class="cover" style="margin:0 0 40px"><img src="../../../assets/img/a09.webp" alt="紫色智能体光球留下的一串发光足迹，每个都与其来源相连，置于放大镜下" width="1536" height="1024" fetchpriority="high"></figure></div>
+<div class="wrap narrow prose"><p class="answer">AI 营销智能体的审计追踪，记录的是智能体采取的每一项重要操作、背后的证据和理由、它考虑过的其他方案，以及批准或审核它的人。它让团队能在事后解释任何决策、及早发现偏移，并对“智能体为什么这么做？”这个问题给客户一个直截了当的回答。</p>
+<h2>人往往不留审计追踪，为什么智能体需要？</h2>
+<p>人其实会留下痕迹：邮件、会议纪要、一位记得来龙去脉的同事。而且人可以被询问。智能体则是大批量、高速度地行动，而且常常在夜间。如果没有刻意的记录，没人能还原预算为什么在凌晨 3 点被调整，或者某条信息为什么被投放给某个特定受众。一旦出了问题，答案就变成“是 AI 干的”，而这正是 AgentC 绝不接受的答案。</p>
+<p>这还关乎信任。我们的核心原则是：合乎伦理的技术，需要有把人性置于效率之上的勇气。透明是这种勇气最实际的体现之一。能够展示推理过程的品牌，比做不到的品牌更容易获得信任。</p>
+<h2>智能体审计追踪应该记录什么？</h2>
+<div class="checklist">
+<h3>最低限度的有用记录</h3>
+<ul>
+<li><strong>操作：</strong>智能体做了什么，用平实的语言描述。</li>
+<li><strong>时间与范围：</strong>何时，在哪个渠道、营销活动或受众上。</li>
+<li><strong>触发因素：</strong>是什么促使了这一操作，例如疲劳信号或新的研究归类。</li>
+<li><strong>证据：</strong>指向其所依据的数据或帖子的链接，而不是一段总结。</li>
+<li><strong>备选方案：</strong>它还考虑过什么，以及为什么否决了这些方案。</li>
+<li><strong>授权：</strong>它是依据章程独立行动，还是经过批准，由谁批准。</li>
+<li><strong>撤回：</strong>如有可能，如何撤销这一操作。</li>
+</ul>
+</div>
+<p>证据一栏是大多数系统的短板。一条写着“因效果提升而调整预算”的日志，几乎聊胜于无。一条链接到具体指标变化（研究类则链接到具体帖子）的日志，才是可以核查的。</p>
+<h2>研究决策的证据从何而来？</h2>
+<p>在研究方面，我们的智能体运行在 AI 受众研究平台 SOMIN 之上，该平台的理念是：每一个 AI 结论都可以对照其背后的帖子进行核查。概念标签和冲突点都能追溯到作为证据的对话。这意味着我们研究方面的审计追踪不是事后重建，而是原生具备的。SOMIN 的<a href="https://somin.ai/somin-reporting/" rel="noopener">报告工具</a>把同样的可追溯性带入面向客户的报告。</p>
+<p>如果想从社媒聆听的角度看同一原则，我们的姊妹应用 <a href="https://somonitor.ai/" rel="noopener">Somonitor</a> 将 SOMIN 的概念引擎用于全天候品牌监测，在这种场景下，能够展示警报背后的帖子至关重要。</p>
+<h2>究竟谁会阅读审计追踪？</h2>
+<p>如果没人阅读，它只是一项存储成本。我们指定了三类读者。</p>
+<h3>指挥，每天</h3>
+<p>一份隔夜操作的简短摘要，任何异常都会被标出。大多数日子只需几分钟。</p>
+<h3>审核者，每周</h3>
+<p>一位不负责该客户的同事随机抽查决策。新鲜的视角能发现客户策略师已习以为常的偏移。</p>
+<h3>客户，按需</h3>
+<p>任何客户都可以询问任何决策并获得相应记录。我们还会在定期报告中附上一份关于智能体操作和人工否决的平实摘要，详见<a href="../ai-optimisation-beyond-vanity-metrics/index.html">我们关于优化智能体的文章</a>。</p>
+<blockquote>透明不是被要求时才拿出来的报告，而是在任何人提出要求之前就养成的习惯。</blockquote>
+<h2>审核者应该留意哪些模式？</h2>
+<ul>
+<li><strong>偏移：</strong>智能体的操作逐渐偏离章程的目的。</li>
+<li><strong>集中：</strong>支出或信息过度集中于某一个受众或切入角度。</li>
+<li><strong>无声的放行：</strong>一位从不否决任何事项的审核者。</li>
+<li><strong>证据缺口：</strong>证据链接薄弱或缺失的操作。</li>
+<li><strong>反复撤回：</strong>同一类操作被一再撤销，这意味着章程需要修改。</li>
+</ul>
+<h2>审计追踪对合规监管有帮助吗？</h2>
+<p>有帮助，但它本身并不是一套法律合规计划。关于自动化决策、广告标准和数据保护的规定因市场而异，而且仍在变化。一份清楚记录您的智能体做了什么、由谁批准的档案，能让您在回答监管机构、平台或客户的任何问题时处于有利得多的位置。关于您的具体义务，请咨询当地法律意见。</p>
+<h2>如何开始建立审计追踪，又不被日志淹没？</h2>
+<ol>
+<li>只记录<a href="../governing-ai-marketing-agents/index.html">智能体章程</a>中所定义的重要操作。</li>
+<li>从第一天起就坚持要求证据链接；事后补加非常痛苦。</li>
+<li>每日摘要要写给忙碌的人看，而不是写给数据库看。</li>
+<li>每周随机抽查一批样本，并根据发现采取行动。</li>
+</ol>
+<p>对于围绕 AI 研究建立客户信任的代理商，<a href="https://somin.ai/agencies-click2view-asia-case-study/" rel="noopener">Click2View Asia 案例研究</a>是有用的参考。</p>
+<h2>一份好的每日摘要是什么样的？</h2><p>一屏，三部分。第一，智能体独立完成了什么，按类型分组，并突出显示任何超出正常范围的内容。第二，有哪些事项在等待决策，附上截止时间。第三，智能体发现的任何意外情况，例如新的受众冲突点或出乎意料的效果变化。每一行都链接到完整记录。如果一份摘要需要超过十分钟才能读完，那就是报告的内容太多，或者智能体在无人监督的情况下做得太多。要修改的是章程，而不是读者。</p><p>关于保存期限，最后再说一点。审计记录的保存时间，至少应与其所描述的营销活动可能引发问题的时间一样长，对大多数品牌而言，这意味着远远超出投放期。投诉、平台审查和内部复盘往往在数月之后才出现。到那时，已删除的记录毫无帮助，而凭记忆重建推理过程也很少能让人满意。</p><p>把审计追踪当作工作的一部分，而不是额外的负担。觉得审计追踪是负担的团队，通常什么都记录、什么都不读；觉得它有价值的团队，记录得更少，但认真阅读。</p><p>如果您希望您的智能体能够解释自己的行为，请发送邮件至 ask@agentc.marketing，向智能体下达简报。</p>
+<section id="faq" style="padding:40px 0 0"><h2>常见问题</h2><details><summary>什么是 AI 智能体审计追踪？</summary><p>一份记录 AI 智能体每一项重要操作的档案，包括证据、理由、考虑过的备选方案、批准人，以及如何撤回。</p></details><details><summary>谁应该审核 AI 智能体日志？</summary><p>负责的策略师每天审核，一位独立同事每周通过随机抽样审核，客户则可在任何时候就某项决策提出询问。</p></details><details><summary>审计追踪足以应对 AI 监管吗？</summary><p>它帮助很大，但并不是一套完整的合规计划。各市场的要求不同，因此在保持良好记录的同时，也请咨询当地法律意见。</p></details></section>
+<div class="cta-box"><h2>向智能体下达简报</h2><p>AgentC 是一家智能体营销代理商。我们的智能体全天候进行研究、创作和优化；我们的策略师决定什么重要、什么契合品牌，以及什么永远不应被自动化。</p><a class="btn" href="mailto:ask@agentc.marketing?subject=Brief%20for%20AgentC%20%28re%3A%20Why%20every%20AI%20agent%20decision%20needs%20an%20audit%20trail%29">发送邮件至 ask@agentc.marketing →</a></div>
+</div></article>
+<section class="alt"><div class="wrap"><h2>继续阅读</h2><div class="grid g3" style="margin-top:28px"><a class="post-card" href="../what-is-agentic-marketing/index.html"><img src="../../../assets/img/a01-640.webp" alt="一位人类指挥家在深墨紫色背景上指挥着一支由发光紫色智能体光球组成的乐团" width="640" height="427" loading="lazy"><div class="b"><span class="tag">智能体营销</span><h3>什么是智能体营销？谁来指挥这些智能体？</h3><p>智能体营销利用 AI 智能体运行研究、创意和优化循环。本文介绍它的运作方式，以及为什么仍需由人类指挥来做决定。</p><div class="meta" style="margin-top:12px">2026 年 10 月 5 日 · 阅读约 6 分钟</div></div></a><a class="post-card" href="../human-in-the-loop-marketing/index.html"><img src="../../../assets/img/a02-640.webp" alt="一只人手补全了由紫色智能体光球组成的发光闭环，象征人工检查点" width="640" height="427" loading="lazy"><div class="b"><span class="tag">人在回路</span><h3>人在回路的营销：检查点该设在哪里</h3><p>人在回路的营销，只有在检查点设在正确位置时才有效。一张实用地图，说明哪些由智能体独立决定，哪些要等人来定。</p><div class="meta" style="margin-top:12px">2026 年 9 月 21 日 · 阅读约 6 分钟</div></div></a><a class="post-card" href="../governing-ai-marketing-agents/index.html"><img src="../../../assets/img/a03-640.webp" alt="紫色智能体光球沿着设有半透明护栏的发光车道行进，指挥台上有人在俯瞰" width="640" height="427" loading="lazy"><div class="b"><span class="tag">治理</span><h3>如何治理 AI 营销智能体：一页纸章程</h3><p>AI 营销智能体在获得更多自主权之前，首先需要书面规则。一份涵盖范围、数据、审批和问责的一页纸治理章程。</p><div class="meta" style="margin-top:12px">2026 年 9 月 7 日 · 阅读约 6 分钟</div></div></a></div></div></section>
+</main>
+<footer class="site"><div class="wrap">
+<div class="fgrid">
+<div><div style="margin-bottom:18px"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 40" width="200" height="40" role="img" aria-label="AgentC 标志"><path d="M20 2l15.6 9v18L20 38 4.4 29V11z" fill="#7C3AED"/><path d="M26.5 14.5a8 8 0 1 0 0 11" fill="none" stroke="#fff" stroke-width="3.6" stroke-linecap="round"/><circle cx="27" cy="20" r="2.3" fill="#fff"/><text x="50" y="28" font-family="'Inter Tight', system-ui, sans-serif" font-size="22" font-weight="800" letter-spacing="-0.6"><tspan fill="#FFFFFF">Agent</tspan><tspan fill="#A78BFA">C</tspan></text></svg></div><p style="max-width:30em">智能体营销代理商：AI 智能体演奏每一个声部，由人类策略师担任指挥。</p>
+<p class="partner">技术合作伙伴 <a href="https://somin.ai/" class="somin" style="text-decoration:none"><b>SO</b><i>MIN</i></a></p>
+<p><a class="btn" href="mailto:ask@agentc.marketing?subject=Brief%20for%20AgentC">向智能体下达简报</a></p>
+<p>邮箱 <a href="mailto:ask@agentc.marketing">ask@agentc.marketing</a></p></div>
+<div><h4>AgentC</h4><ul style="list-style:none;padding:0;margin:0;line-height:2.1"><li><a href="../../index.html#services">我们做什么</a></li><li><a href="../index.html">洞察</a></li><li><a href="../../index.html#about">关于</a></li><li><a href="../../index.html#faq">常见问题</a></li><li><a href="../../../brand/index.html">品牌指南</a></li><li><a href="https://agentc.marketing/feed.xml">RSS</a></li></ul></div>
+<div><h4>由 SOMIN 提供技术支持</h4><ul style="list-style:none;padding:0;margin:0;line-height:2.1"><li><a href="https://somin.ai/" rel="noopener">somin.ai</a></li><li><a href="https://somin.ai/cases-ai-marketing-strategy/" rel="noopener">案例研究</a></li><li><a href="https://somin.ai/somin-for-brands/" rel="noopener">面向品牌</a></li><li><a href="https://somin.ai/somin-for-agencies/" rel="noopener">面向代理商</a></li></ul></div>
+</div>
+<h4>合作网络</h4>
+<nav class="network" aria-label="姊妹公司"><a href="https://mondays.marketing/" rel="noopener">Marketing Mondays<span>每周一，解读一个真实信号</span></a><a href="https://somonitor.ai/" rel="noopener">Somonitor<span>可核查的全天候社媒聆听</span></a><a href="https://fmedia.marketing/" rel="noopener">FMedia<span>付费流量，以利润衡量</span></a><a href="https://gpt3.marketing/" rel="noopener">GPT3 Marketing<span>六年 AI 内容创作经验</span></a><a href="https://gpt5.marketing/" rel="noopener">GPT5 Marketing<span>为推理模型重新设计的营销</span></a><a href="https://mindfuse.sg/" rel="noopener">Mindfuse<span>为东南亚解读消费者心理与文化</span></a><a href="https://snmrush.com/" rel="noopener">SNMRush<span>搜索、AI 答案、提及。一次全面冲刺。</span></a></nav>
+<p style="margin-top:40px;font-size:13px">© 2026 AgentC · agentc.marketing · 新加坡。 </p>
+</div></footer>
+</body></html>
