@@ -210,7 +210,7 @@ A checkpoint nobody can say no at is not a checkpoint. It is a delay.
 
 On a typical account, agents run continuously. Each morning the strategist gets a short digest: what agents did alone overnight, what is waiting for approval, and anything flagged as unusual. Most mornings, approvals take minutes. The strategist's real time goes to the questions agents surface but cannot answer, like whether to respond to a shift in audience mood or hold the line.
 
-For a wider view of how agencies are structuring this kind of operation, SOMIN for agencies (https://somin.ai/somin-for-agencies/) outlines how AI research slots into agency workflows, and the SAMY case study (https://somin.ai/agencies-samy-case-study/) is worth reading for a social-first agency's perspective.
+For a wider view of how agencies are structuring this kind of operation, SOMIN for agencies (https://somin.ai/somin-for-agencies/) outlines how AI research slots into agency workflows, and SOMIN's agency case studies (https://somin.ai/cases-ai-marketing-strategy/) are worth reading for agencies' perspective.
 
 ## Where does this fit in the bigger picture?
 
